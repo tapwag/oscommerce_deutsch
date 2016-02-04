@@ -16,7 +16,7 @@ define('NAVBAR_TITLE_2', 'Suchergebnisse');
 define('HEADING_TITLE_1', 'Geben Sie Ihre Suchkriterien ein');
 define('HEADING_TITLE_2', 'Artikel, welche den Suchkriterien entsprechen');
 
-define('HEADING_SEARCH_CRITERIA', 'Geben Sie Ihre Stichworte ein');
+define('HEADING_SEARCH_CRITERIA', 'Geben Sie verschiedene Suchkriterien in Form von Stichworten ein:');
 
 define('TEXT_SEARCH_IN_DESCRIPTION', 'Auch in den Beschreibungen suchen');
 define('ENTRY_CATEGORIES', 'Kategorien:');
@@ -34,7 +34,7 @@ define('TEXT_ALL_MANUFACTURERS', 'Alle Hersteller');
 
 define('HEADING_SEARCH_HELP', 'Hilfe zur erweiterten Suche');
 define('TEXT_SEARCH_HELP', 'Die Suchfunktion erm&ouml;glicht Ihnen die Suche in den Produktnamen, Produktbeschreibungen, Herstellern und Artikelnummern.<br><br>Sie haben die M&ouml;glichkeit logische Operatoren wie "AND" (Und) und "OR" (oder) zu verwenden.<br><br>Als Beispiel k&ouml;nnten Sie also angeben: <u>Microsoft AND Maus</u>.<br><br>Desweiteren k&ouml;nnen Sie Klammern verwenden um die Suche zu verschachteln, also z.B.:<br><br><u>Microsoft AND (Maus OR Tastatur OR "Visual Basic")</u>.<br><br>Mit Anf&uuml;hrungszeichen k&ouml;nnen Sie mehrere Worte zu einem Suchbegriff zusammenfassen.');
-define('TEXT_CLOSE_WINDOW', '<u>Fenster schliessen</u> [x]');
+define('TEXT_CLOSE_WINDOW', '<u>Fenster schli&szlig;en</u> [x]');
 
 define('TABLE_HEADING_IMAGE', '');
 define('TABLE_HEADING_MODEL', 'Artikelnummer');
