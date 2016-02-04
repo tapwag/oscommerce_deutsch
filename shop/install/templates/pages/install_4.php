@@ -48,7 +48,7 @@
     </ol>
   </div>
 
-  <h1>neue Installation</h1>
+  <h1>Neue Installation</h1>
 
   <p>Diese webbasierte Installtion konfiguriert osCommerce Online Merchant f&uuml;r Ihren Server.</p>
   <p>Bitte folgen Sie den Installationsanweisungen f&uuml;r den Datenbankserver, den Webserver und den Konfigurationseinstellungen f&uuml;r den Shop. Wenn Sie an einer Stelle Hilfe ben&ouml;tigen, nutzen Sie die Dokumentation, oder suchen sie Hilfe in den Onlineforen von osCommerce.</p>
