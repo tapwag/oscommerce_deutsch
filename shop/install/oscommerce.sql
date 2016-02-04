@@ -3,11 +3,8 @@
 #
 # Database Backup For Hess Store
 # Copyright (c) 2015 Frank Hess
+# with modifications made in 2016 by Maik Wagner - www.linuxandlanguages.com
 #
-# Database: test
-# Database Server: localhost
-#
-# Backup Date: 22/03/2015 20:40:21
 
 drop table if exists action_recorder;
 create table action_recorder (
@@ -164,40 +161,40 @@ insert into categories_description (categories_id, language_id, categories_name)
 insert into categories_description (categories_id, language_id, categories_name) values ('19', '2', 'Action');
 insert into categories_description (categories_id, language_id, categories_name) values ('13', '1', 'Cartoons');
 insert into categories_description (categories_id, language_id, categories_name) values ('13', '2', 'Cartoons');
-insert into categories_description (categories_id, language_id, categories_name) values ('17', '1', 'CDROM Drives');
-insert into categories_description (categories_id, language_id, categories_name) values ('17', '2', 'CDROM Drives');
-insert into categories_description (categories_id, language_id, categories_name) values ('12', '1', 'Comedy');
-insert into categories_description (categories_id, language_id, categories_name) values ('12', '2', 'Comedy');
+insert into categories_description (categories_id, language_id, categories_name) values ('17', '1', 'CDROM-Laufwerke');
+insert into categories_description (categories_id, language_id, categories_name) values ('17', '2', 'CDROM-Laufwerke');
+insert into categories_description (categories_id, language_id, categories_name) values ('12', '1', 'Komödie');
+insert into categories_description (categories_id, language_id, categories_name) values ('12', '2', 'Komödie');
 insert into categories_description (categories_id, language_id, categories_name) values ('15', '1', 'Drama');
 insert into categories_description (categories_id, language_id, categories_name) values ('15', '2', 'Drama');
-insert into categories_description (categories_id, language_id, categories_name) values ('3', '1', 'DVD Movies');
-insert into categories_description (categories_id, language_id, categories_name) values ('3', '2', 'DVD Movies');
+insert into categories_description (categories_id, language_id, categories_name) values ('3', '1', 'DVD Filme');
+insert into categories_description (categories_id, language_id, categories_name) values ('3', '2', 'DVD Filme');
 insert into categories_description (categories_id, language_id, categories_name) values ('21', '1', 'Gadgets');
 insert into categories_description (categories_id, language_id, categories_name) values ('21', '2', 'Gadgets');
-insert into categories_description (categories_id, language_id, categories_name) values ('4', '1', 'Graphics Cards');
-insert into categories_description (categories_id, language_id, categories_name) values ('4', '2', 'Graphics Cards');
+insert into categories_description (categories_id, language_id, categories_name) values ('4', '1', 'Grafikkarten');
+insert into categories_description (categories_id, language_id, categories_name) values ('4', '2', 'Grafikkarten');
 insert into categories_description (categories_id, language_id, categories_name) values ('1', '1', 'Hardware');
 insert into categories_description (categories_id, language_id, categories_name) values ('1', '2', 'Hardware');
-insert into categories_description (categories_id, language_id, categories_name) values ('8', '1', 'Keyboards');
-insert into categories_description (categories_id, language_id, categories_name) values ('8', '2', 'Keyboards');
-insert into categories_description (categories_id, language_id, categories_name) values ('16', '1', 'Memory');
-insert into categories_description (categories_id, language_id, categories_name) values ('16', '2', 'Memory');
-insert into categories_description (categories_id, language_id, categories_name) values ('9', '1', 'Mice');
-insert into categories_description (categories_id, language_id, categories_name) values ('9', '2', 'Mice');
-insert into categories_description (categories_id, language_id, categories_name) values ('6', '1', 'Monitors');
-insert into categories_description (categories_id, language_id, categories_name) values ('6', '2', 'Monitors');
-insert into categories_description (categories_id, language_id, categories_name) values ('5', '1', 'Printers');
-insert into categories_description (categories_id, language_id, categories_name) values ('5', '2', 'Printers');
+insert into categories_description (categories_id, language_id, categories_name) values ('8', '1', 'Tastaturen');
+insert into categories_description (categories_id, language_id, categories_name) values ('8', '2', 'Tastaturen');
+insert into categories_description (categories_id, language_id, categories_name) values ('16', '1', 'Arbeitsspeicher');
+insert into categories_description (categories_id, language_id, categories_name) values ('16', '2', 'Arbeitsspeicher');
+insert into categories_description (categories_id, language_id, categories_name) values ('9', '1', 'Mäuse');
+insert into categories_description (categories_id, language_id, categories_name) values ('9', '2', 'Mäuse');
+insert into categories_description (categories_id, language_id, categories_name) values ('6', '1', 'Monitore');
+insert into categories_description (categories_id, language_id, categories_name) values ('6', '2', 'Monitore');
+insert into categories_description (categories_id, language_id, categories_name) values ('5', '1', 'Drucker');
+insert into categories_description (categories_id, language_id, categories_name) values ('5', '2', 'Drucker');
 insert into categories_description (categories_id, language_id, categories_name) values ('11', '1', 'Science Fiction');
 insert into categories_description (categories_id, language_id, categories_name) values ('11', '2', 'Science Fiction');
 insert into categories_description (categories_id, language_id, categories_name) values ('18', '1', 'Simulation');
 insert into categories_description (categories_id, language_id, categories_name) values ('18', '2', 'Simulation');
 insert into categories_description (categories_id, language_id, categories_name) values ('2', '1', 'Software');
 insert into categories_description (categories_id, language_id, categories_name) values ('2', '2', 'Software');
-insert into categories_description (categories_id, language_id, categories_name) values ('7', '1', 'Speakers');
-insert into categories_description (categories_id, language_id, categories_name) values ('7', '2', 'Speakers');
-insert into categories_description (categories_id, language_id, categories_name) values ('20', '1', 'Strategy');
-insert into categories_description (categories_id, language_id, categories_name) values ('20', '2', 'Strategy');
+insert into categories_description (categories_id, language_id, categories_name) values ('7', '1', 'Lautsprecher');
+insert into categories_description (categories_id, language_id, categories_name) values ('7', '2', 'Lautsprecher');
+insert into categories_description (categories_id, language_id, categories_name) values ('20', '1', 'Strategie');
+insert into categories_description (categories_id, language_id, categories_name) values ('20', '2', 'Strategie');
 insert into categories_description (categories_id, language_id, categories_name) values ('14', '1', 'Thriller');
 insert into categories_description (categories_id, language_id, categories_name) values ('14', '2', 'Thriller');
 
@@ -874,9 +871,8 @@ create table currencies (
   KEY idx_currencies_code (code)
 )CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
-insert into currencies (currencies_id, title, code, symbol_left, symbol_right, decimal_point, thousands_point, decimal_places, value, last_updated) values ('1', 'U.S. Dollar', 'USD', '$', '', '.', ',', '2', '1.00000000', '2015-02-23 09:52:42');
-insert into currencies (currencies_id, title, code, symbol_left, symbol_right, decimal_point, thousands_point, decimal_places, value, last_updated) values ('2', 'Euro', 'EUR', '', '€', '.', ',', '2', '1.00000000', '2015-02-23 09:52:42');
-
+insert into currencies (currencies_id, title, code, symbol_left, symbol_right, decimal_point, thousands_point, decimal_places, value, last_updated) values ('1', 'Euro', 'EUR', '', '€', '.', ',', '2', '1.00000000', '2016-02-04 09:52:42');
+insert into currencies (currencies_id, title, code, symbol_left, symbol_right, decimal_point, thousands_point, decimal_places, value, last_updated) values ('2', 'U.S. Dollar', 'USD', '$', '', '.', ',', '2', '1.00000000', '2016-02-04 09:52:42');
 drop table if exists customers;
 create table customers (
   customers_id int(11) not null auto_increment,
@@ -939,12 +935,12 @@ create table edit_invoice (
   KEY status_id (edit_invoice_id)
 )CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
-insert into edit_invoice (edit_invoice_id, language_id, edit_invoice_text) values ('1', '1', 'erster englischer Text auf Rechnung');
-insert into edit_invoice (edit_invoice_id, language_id, edit_invoice_text) values ('1', '2', 'erster deutscher Text auf Rechnung');
-insert into edit_invoice (edit_invoice_id, language_id, edit_invoice_text) values ('2', '1', 'zweiter englischer Text auf Rechnung');
-insert into edit_invoice (edit_invoice_id, language_id, edit_invoice_text) values ('2', '2', 'zweiter deutscher Texte auf Rechnung');
-insert into edit_invoice (edit_invoice_id, language_id, edit_invoice_text) values ('3', '1', 'englischer Text auf Lieferschein');
-insert into edit_invoice (edit_invoice_id, language_id, edit_invoice_text) values ('3', '2', 'deutscher Text auf Lieferschein');
+insert into edit_invoice (edit_invoice_id, language_id, edit_invoice_text) values ('1', '1', 'Erster englischer Text auf Rechnung');
+insert into edit_invoice (edit_invoice_id, language_id, edit_invoice_text) values ('1', '2', 'Erster deutscher Text auf Rechnung');
+insert into edit_invoice (edit_invoice_id, language_id, edit_invoice_text) values ('2', '1', 'Zweiter englischer Text auf Rechnung');
+insert into edit_invoice (edit_invoice_id, language_id, edit_invoice_text) values ('2', '2', 'Zweiter deutscher Texte auf Rechnung');
+insert into edit_invoice (edit_invoice_id, language_id, edit_invoice_text) values ('3', '1', 'Englischer Text auf Lieferschein');
+insert into edit_invoice (edit_invoice_id, language_id, edit_invoice_text) values ('3', '2', 'Deutscher Text auf Lieferschein');
 
 drop table if exists geo_zones;
 create table geo_zones (
@@ -1140,15 +1136,15 @@ create table orders_status (
 )CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
 insert into orders_status (orders_status_id, language_id, orders_status_name, public_flag, downloads_flag) values ('1', '1', 'Pending', '1', '0');
-insert into orders_status (orders_status_id, language_id, orders_status_name, public_flag, downloads_flag) values ('1', '2', 'offen', '1', '0');
+insert into orders_status (orders_status_id, language_id, orders_status_name, public_flag, downloads_flag) values ('1', '2', 'Offen', '1', '0');
 insert into orders_status (orders_status_id, language_id, orders_status_name, public_flag, downloads_flag) values ('2', '1', 'Processing', '1', '1');
-insert into orders_status (orders_status_id, language_id, orders_status_name, public_flag, downloads_flag) values ('2', '2', 'in Arbeit', '1', '1');
+insert into orders_status (orders_status_id, language_id, orders_status_name, public_flag, downloads_flag) values ('2', '2', 'In Berarbeitung', '1', '1');
 insert into orders_status (orders_status_id, language_id, orders_status_name, public_flag, downloads_flag) values ('3', '1', 'Delivered', '1', '1');
-insert into orders_status (orders_status_id, language_id, orders_status_name, public_flag, downloads_flag) values ('3', '2', 'versendet', '1', '1');
+insert into orders_status (orders_status_id, language_id, orders_status_name, public_flag, downloads_flag) values ('3', '2', 'Geliefert', '1', '1');
 insert into orders_status (orders_status_id, language_id, orders_status_name, public_flag, downloads_flag) values ('4', '1', 'PayPal [Transactions]', '0', '0');
-insert into orders_status (orders_status_id, language_id, orders_status_name, public_flag, downloads_flag) values ('4', '2', 'PayPal [Transaction]', '1', '0');
+insert into orders_status (orders_status_id, language_id, orders_status_name, public_flag, downloads_flag) values ('4', '2', 'PayPal [Transaktion]', '1', '0');
 insert into orders_status (orders_status_id, language_id, orders_status_name, public_flag, downloads_flag) values ('5', '1', 'Authorize.net [Transactions]', '0', '0');
-insert into orders_status (orders_status_id, language_id, orders_status_name, public_flag, downloads_flag) values ('5', '2', 'Authorize.net [Transaction]', '0', '0');
+insert into orders_status (orders_status_id, language_id, orders_status_name, public_flag, downloads_flag) values ('5', '2', 'Authorize.net [Transaktionen]', '0', '0');
 
 drop table if exists orders_status_history;
 create table orders_status_history (
