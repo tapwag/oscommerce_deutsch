@@ -144,7 +144,7 @@
   }
 
   if (!extension_loaded('mysql')) {
-    $warning_array['mysql'] = 'Das MySQL-Modul ist f&uuml;r PHP ist nicht installiert.Biite installieren Sie das Modul, bevor Sie mit der Installation fortfahren.';
+    $warning_array['mysql'] = 'Das MySQL-Modul ist f&uuml;r PHP ist nicht installiert.Btite installieren Sie das Modul, bevor Sie mit der Installation fortfahren.';
   }
 
   if ((sizeof($configfile_array) > 0) || (sizeof($warning_array) > 0)) {
@@ -176,7 +176,7 @@
 ?>
 
      <p>Es ist nicht m&ouml;glich die Installationsparameter in einer Datei zu speichern.</p>
-      <p>Folgende Dateien m&uuml;ssen schreibrechte besitzen (chmod 777):</p>
+      <p>Folgende Dateien m&uuml;ssen Schreibrechte besitzen (chmod 777):</p>
       <p>
 
 <?php
@@ -203,7 +203,7 @@
   if ((sizeof($configfile_array) > 0) || (sizeof($warning_array) > 0)) {
 ?>
 
-     <p>Bitte korrigieren Sie die Fehler, und vversuchen Sie die Installation erneut auszuf&uuml;hren.</p>
+     <p>Bitte korrigieren Sie die Fehler, und versuchen Sie die Installation erneut auszuf&uuml;hren.</p>
 
 <?php
     if (sizeof($warning_array) > 0) {
@@ -220,12 +220,12 @@
 	<p>Die ben&ouml;tigten Einstellungen, um osCommerce zu installieren, sind vorhanden.</p>
 
     <div id="jsOn" style="display: none;">
-       <p>Fahren Sie fort, um die Installation zu starten.</p>
+       <p>Fahren Sie fort um die Installation zu starten.</p>
       <p><?php echo osc_draw_button('Start', 'triangle-1-e', 'install.php', 'primary'); ?></p>
     </div>
 
     <div id="jsOff">
-      <p>Bitte aktivieren Sie Jacascript in Ihrem Browser, damit die Installation gestartet werden kann.</p>
+      <p>Bitte aktivieren Sie Javascript in Ihrem Browser, damit die Installation gestartet werden kann.</p>
       <p><?php echo osc_draw_button('erneut Versuchen', 'arrowrefresh-1-e', 'index.php', 'primary'); ?></p>
     </div>
 
