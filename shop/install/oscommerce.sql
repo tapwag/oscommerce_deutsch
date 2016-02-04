@@ -1203,7 +1203,7 @@ create table pages_description (
   PRIMARY KEY (id)
 )CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
-insert into pages_description (id, pages_id, pages_title, pages_html_text, intorext, externallink, link_target, language_id) values ('17', '11', 'Zahlungs- Lieferzeit- und Versandinformationen', '<h2>&nbsp;<a href=\"shipping.php?#versand\"><span style=\"color: #9a9a9a;\">Versandkosten</span></a>&nbsp;&nbsp;&nbsp; <a href=\"shipping.php?#lieferzeit\"><span style=\"color: #9a9a9a;\">Lieferzeit</span></a>&nbsp;&nbsp;&nbsp; <a href=\"shipping.php?#zahlung\"><span style=\"color: #9a9a9a;\"> Zahlung</span></a></h2>
+insert into pages_description (id, pages_id, pages_title, pages_html_text, intorext, externallink, link_target, language_id) values ('17', '11', 'Zahlungs-, Lieferzeit- und Versandinformationen', '<h2>&nbsp;<a href=\"shipping.php?#versand\"><span style=\"color: #9a9a9a;\">Versandkosten</span></a>&nbsp;&nbsp;&nbsp; <a href=\"shipping.php?#lieferzeit\"><span style=\"color: #9a9a9a;\">Lieferzeit</span></a>&nbsp;&nbsp;&nbsp; <a href=\"shipping.php?#zahlung\"><span style=\"color: #9a9a9a;\"> Zahlung</span></a></h2>
 <div class=\"contentContainer\">
 <div class=\"contentText\">
 <h2><a name=\"versand\"></a>Versandkosten:</h2>
