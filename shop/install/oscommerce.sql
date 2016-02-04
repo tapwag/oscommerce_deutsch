@@ -162,29 +162,29 @@ insert into categories_description (categories_id, language_id, categories_name)
 insert into categories_description (categories_id, language_id, categories_name) values ('13', '1', 'Cartoons');
 insert into categories_description (categories_id, language_id, categories_name) values ('13', '2', 'Cartoons');
 insert into categories_description (categories_id, language_id, categories_name) values ('17', '1', 'CDROM-Laufwerke');
-insert into categories_description (categories_id, language_id, categories_name) values ('17', '2', 'CDROM-Laufwerke');
+insert into categories_description (categories_id, language_id, categories_name) values ('17', '2', 'CDROM Drives');
 insert into categories_description (categories_id, language_id, categories_name) values ('12', '1', 'Komödie');
-insert into categories_description (categories_id, language_id, categories_name) values ('12', '2', 'Komödie');
+insert into categories_description (categories_id, language_id, categories_name) values ('12', '2', 'Comedy');
 insert into categories_description (categories_id, language_id, categories_name) values ('15', '1', 'Drama');
 insert into categories_description (categories_id, language_id, categories_name) values ('15', '2', 'Drama');
 insert into categories_description (categories_id, language_id, categories_name) values ('3', '1', 'DVD Filme');
-insert into categories_description (categories_id, language_id, categories_name) values ('3', '2', 'DVD Filme');
+insert into categories_description (categories_id, language_id, categories_name) values ('3', '2', 'DVD Films');
 insert into categories_description (categories_id, language_id, categories_name) values ('21', '1', 'Gadgets');
 insert into categories_description (categories_id, language_id, categories_name) values ('21', '2', 'Gadgets');
 insert into categories_description (categories_id, language_id, categories_name) values ('4', '1', 'Grafikkarten');
-insert into categories_description (categories_id, language_id, categories_name) values ('4', '2', 'Grafikkarten');
+insert into categories_description (categories_id, language_id, categories_name) values ('4', '2', 'Grafic Cards');
 insert into categories_description (categories_id, language_id, categories_name) values ('1', '1', 'Hardware');
 insert into categories_description (categories_id, language_id, categories_name) values ('1', '2', 'Hardware');
 insert into categories_description (categories_id, language_id, categories_name) values ('8', '1', 'Tastaturen');
 insert into categories_description (categories_id, language_id, categories_name) values ('8', '2', 'Tastaturen');
 insert into categories_description (categories_id, language_id, categories_name) values ('16', '1', 'Arbeitsspeicher');
-insert into categories_description (categories_id, language_id, categories_name) values ('16', '2', 'Arbeitsspeicher');
+insert into categories_description (categories_id, language_id, categories_name) values ('16', '2', 'Computer Memory');
 insert into categories_description (categories_id, language_id, categories_name) values ('9', '1', 'Mäuse');
-insert into categories_description (categories_id, language_id, categories_name) values ('9', '2', 'Mäuse');
+insert into categories_description (categories_id, language_id, categories_name) values ('9', '2', 'Mice');
 insert into categories_description (categories_id, language_id, categories_name) values ('6', '1', 'Monitore');
-insert into categories_description (categories_id, language_id, categories_name) values ('6', '2', 'Monitore');
+insert into categories_description (categories_id, language_id, categories_name) values ('6', '2', 'Monitors');
 insert into categories_description (categories_id, language_id, categories_name) values ('5', '1', 'Drucker');
-insert into categories_description (categories_id, language_id, categories_name) values ('5', '2', 'Drucker');
+insert into categories_description (categories_id, language_id, categories_name) values ('5', '2', 'Printers');
 insert into categories_description (categories_id, language_id, categories_name) values ('11', '1', 'Science Fiction');
 insert into categories_description (categories_id, language_id, categories_name) values ('11', '2', 'Science Fiction');
 insert into categories_description (categories_id, language_id, categories_name) values ('18', '1', 'Simulation');
@@ -192,9 +192,9 @@ insert into categories_description (categories_id, language_id, categories_name)
 insert into categories_description (categories_id, language_id, categories_name) values ('2', '1', 'Software');
 insert into categories_description (categories_id, language_id, categories_name) values ('2', '2', 'Software');
 insert into categories_description (categories_id, language_id, categories_name) values ('7', '1', 'Lautsprecher');
-insert into categories_description (categories_id, language_id, categories_name) values ('7', '2', 'Lautsprecher');
+insert into categories_description (categories_id, language_id, categories_name) values ('7', '2', 'Speakers');
 insert into categories_description (categories_id, language_id, categories_name) values ('20', '1', 'Strategie');
-insert into categories_description (categories_id, language_id, categories_name) values ('20', '2', 'Strategie');
+insert into categories_description (categories_id, language_id, categories_name) values ('20', '2', 'Strategy');
 insert into categories_description (categories_id, language_id, categories_name) values ('14', '1', 'Thriller');
 insert into categories_description (categories_id, language_id, categories_name) values ('14', '2', 'Thriller');
 
@@ -966,8 +966,8 @@ create table languages (
   KEY IDX_LANGUAGES_NAME (name)
 )CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
-insert into languages (languages_id, name, code, image, directory, sort_order) values ('2', 'English', 'en', 'icon.gif', 'english', '1');
-insert into languages (languages_id, name, code, image, directory, sort_order) values ('1', 'Deutsch', 'de', 'icon.gif', 'german', '2');
+insert into languages (languages_id, name, code, image, directory, sort_order) values ('1', 'Deutsch', 'de', 'icon.gif', 'german', '1');
+insert into languages (languages_id, name, code, image, directory, sort_order) values ('2', 'English', 'en', 'icon.gif', 'english', '2');
 
 drop table if exists manufacturers;
 create table manufacturers (
