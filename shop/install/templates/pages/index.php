@@ -203,7 +203,7 @@
   if ((sizeof($configfile_array) > 0) || (sizeof($warning_array) > 0)) {
 ?>
 
-     <p>Bitte korrigieren Sie die Fehler, und versuchen Sie die Installation erneut auszuf&uuml;hren.</p>
+     <p>Bitte korrigieren Sie die Fehler und versuchen Sie die Installation erneut auszuf&uuml;hren.</p>
 
 <?php
     if (sizeof($warning_array) > 0) {
