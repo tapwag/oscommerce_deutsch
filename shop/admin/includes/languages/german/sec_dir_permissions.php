@@ -14,7 +14,7 @@ define('HEADING_TITLE', 'Verzeichnis Sicherheit/Lesezugriffsrecht');
 
 define('TABLE_HEADING_DIRECTORIES', 'Directories/Verzeichnisse');
 define('TABLE_HEADING_WRITABLE', 'Beschreibbar');
-define('TABLE_HEADING_RECOMMENDED', ' Borgeschlagen');
+define('TABLE_HEADING_RECOMMENDED', ' Vorgeschlagen');
 
 define('TEXT_DIRECTORY', 'Verzeichnis:');
 ?>
