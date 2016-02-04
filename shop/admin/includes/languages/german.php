@@ -323,9 +323,9 @@ define('WARNING_FILE_UPLOADS_DISABLED', 'Warnung: Datei uploads sind in der php.
 //Tabelle configuration_group
 define('CONFIGURATION_GROUP_1_TITLE','Shop');
 define('CONFIGURATION_GROUP_1_DESCRIPTION','Allgemeine Informationen zum Shop');
-define('CONFIGURATION_GROUP_2_TITLE','untere Werte');
-define('CONFIGURATION_GROUP_2_DESCRIPTION','die unteren Werte f&uuml;r Fuktionen und Daten');
-define('CONFIGURATION_GROUP_3_TITLE','obere Werte');
+define('CONFIGURATION_GROUP_2_TITLE','Untere Werte');
+define('CONFIGURATION_GROUP_2_DESCRIPTION','Die unteren Werte f&uuml;r Fuktionen und Daten');
+define('CONFIGURATION_GROUP_3_TITLE','Obere Werte');
 define('CONFIGURATION_GROUP_3_DESCRIPTION','obere Werte f&uuml;r Fuktionen und Daten');
 define('CONFIGURATION_GROUP_4_TITLE','Bilder');
 define('CONFIGURATION_GROUP_4_DESCRIPTION','Parameter f&uuml;r Bilder');
