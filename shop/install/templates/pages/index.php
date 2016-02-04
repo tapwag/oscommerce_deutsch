@@ -176,7 +176,7 @@
 ?>
 
      <p>Es ist nicht m&ouml;glich die Installationsparameter in einer Datei zu speichern.</p>
-      <p>Folgende Dateien m&uuml;ssen Schreibrechte besitzen (Auf UNIX-Systemen das Writable-Bit per chmod a+w setzen):</p>
+      <p>Folgende Dateien m&uuml;ssen Schreibrechte besitzen (Auf UNIX-Systemen das Writeable-Bit per chmod a+w setzen):</p>
       <p>
 
 <?php
