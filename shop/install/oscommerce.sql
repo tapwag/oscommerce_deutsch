@@ -1618,7 +1618,7 @@ Audio: Dolby Surround 5.1.<br />
 Picture Format: 16:9 Wide-Screen.<br />
 Length: (approx) 120 minutes.<br />
 Other: Interactive Menus, Chapter Selection, Subtitles (more languages).', '', '0');
-insert into products_description (products_id, language_id, products_name, products_description, products_url, products_viewed) values ('19', '1', 'There\'s Something About Mary', 'Regional Code: 2 (Japan, Europe, Middle East, South Africa).<br />
+insert into products_description (products_id, language_id, products_name, products_description, products_url, products_viewed) values ('19', '1', 'Verrückt nach Mary', 'Regional Code: 2 (Japan, Europe, Middle East, South Africa).<br />
 Languages: English, Deutsch.<br />
 Subtitles: English, Deutsch, Spanish.<br />
 Audio: Dolby Surround 5.1.<br />
