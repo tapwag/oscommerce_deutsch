@@ -97,8 +97,8 @@ define('BOX_TAXES_TAX_RATES', 'Steuers&auml;tze');
 
 // reports box text in includes/boxes/reports.php
 define('BOX_HEADING_REPORTS', 'Berichte');
-define('BOX_REPORTS_PRODUCTS_VIEWED', 'besuchte Artikel');
-define('BOX_REPORTS_PRODUCTS_PURCHASED', 'gekaufte Artikel');
+define('BOX_REPORTS_PRODUCTS_VIEWED', 'Besuchte Artikel');
+define('BOX_REPORTS_PRODUCTS_PURCHASED', 'Gekaufte Artikel');
 define('BOX_REPORTS_ORDERS_TOTAL', 'Kunden-Bestellstatistik');
 
 // reports box text in includes/boxes/orders.php
@@ -117,16 +117,16 @@ define('BOX_TOOLS_PAGE_MANAGER', 'Seiten verwalten');
 define('BOX_HEADING_TOOLS', 'Hilfsprogramme');
 define('BOX_TOOLS_ACTION_RECORDER', 'Action Recorder');
 define('BOX_TOOLS_BACKUP', 'Datenbanksicherung');
-define('BOX_TOOLS_BANNER_MANAGER', 'Banner Manager');
+define('BOX_TOOLS_BANNER_MANAGER', 'Bannerverwaltung');
 define('BOX_TOOLS_CACHE', 'Cache Steuerung');
 define('BOX_TOOLS_DEFINE_LANGUAGE', 'Sprachen definieren');
 define('BOX_TOOLS_FILE_MANAGER', 'Datei-Manager');
-define('BOX_TOOLS_MAIL', 'eMail versenden');
+define('BOX_TOOLS_MAIL', 'Email versenden');
 define('BOX_TOOLS_NEWSLETTER_MANAGER', 'Rundschreiben Manager');
 define('BOX_TOOLS_SEC_DIR_PERMISSIONS', 'Verzeichnis Sicherheit/Lesezugriffsrecht');
 define('BOX_TOOLS_SERVER_INFO', 'Server Info');
 define('BOX_TOOLS_VERSION_CHECK', 'Version pr&uuml;fen');
-define('BOX_TOOLS_WHOS_ONLINE', 'Wer ist Online');
+define('BOX_TOOLS_WHOS_ONLINE', 'Wer ist online');
 
 // localizaion box text in includes/boxes/localization.php
 define('BOX_HEADING_LOCALIZATION', 'Sprachen/W&auml;hrungen');
@@ -204,7 +204,7 @@ define('ENTRY_NEWSLETTER_YES', 'abonniert');
 define('ENTRY_NEWSLETTER_NO', 'nicht abonniert');
 
 // images
-define('IMAGE_ANI_SEND_EMAIL', 'eMail versenden');
+define('IMAGE_ANI_SEND_EMAIL', 'Email versenden');
 define('IMAGE_BACK', 'Zur&uuml;ck');
 define('IMAGE_BACKUP', 'Datensicherung');
 define('IMAGE_CANCEL', 'Abbruch');
@@ -214,12 +214,12 @@ define('IMAGE_COPY_TO', 'Kopieren nach');
 define('IMAGE_DETAILS', 'Details');
 define('IMAGE_DELETE', 'L&ouml;schen');
 define('IMAGE_EDIT', 'Bearbeiten');
-define('IMAGE_EMAIL', 'eMail versenden');
+define('IMAGE_EMAIL', 'Email versenden');
 define('IMAGE_FILE_MANAGER', 'Datei-Manager');
-define('IMAGE_ICON_STATUS_GREEN', 'aktiv');
-define('IMAGE_ICON_STATUS_GREEN_LIGHT', 'aktivieren');
-define('IMAGE_ICON_STATUS_RED', 'inaktiv');
-define('IMAGE_ICON_STATUS_RED_LIGHT', 'deaktivieren');
+define('IMAGE_ICON_STATUS_GREEN', 'Aktiv');
+define('IMAGE_ICON_STATUS_GREEN_LIGHT', 'Aktivieren');
+define('IMAGE_ICON_STATUS_RED', 'Inaktiv');
+define('IMAGE_ICON_STATUS_RED_LIGHT', 'Deaktivieren');
 define('IMAGE_ICON_INFO', 'Information');
 define('IMAGE_INSERT', 'Einf&uuml;gen');
 define('IMAGE_LOCK', 'Sperren');
@@ -298,7 +298,7 @@ define('PREVNEXT_BUTTON_PREV', '&lt;&lt;');
 define('PREVNEXT_BUTTON_NEXT', '&gt;&gt;');
 
 define('TEXT_DEFAULT', 'Standard');
-define('TEXT_SET_DEFAULT', 'als Standard definieren');
+define('TEXT_SET_DEFAULT', 'Als Standard definieren');
 define('TEXT_FIELD_REQUIRED', '&nbsp;<span class="fieldRequired">* erforderlich</span>');
 
 define('ERROR_NO_DEFAULT_CURRENCY_DEFINED', 'Fehler: Es wurde keine Standardw&auml;hrung definiert. Bitte definieren Sie unter Adminstration -> Sprachen/W&auml;hrungen -> W&auml;hrungen eine Standardw&auml;hrung.');
@@ -336,7 +336,7 @@ define('CONFIGURATION_GROUP_6_DESCRIPTION','In Konfiguration nicht sichtbar');
 define('CONFIGURATION_GROUP_7_TITLE','Versand/Verpackung');
 define('CONFIGURATION_GROUP_7_DESCRIPTION','Konfiguration der Versandoptionen');
 define('CONFIGURATION_GROUP_8_TITLE','Produktlisten');
-define('CONFIGURATION_GROUP_8_DESCRIPTION','	Konfiguration der angezeigten Produktlisten');
+define('CONFIGURATION_GROUP_8_DESCRIPTION','Konfiguration der angezeigten Produktlisten');
 define('CONFIGURATION_GROUP_9_TITLE','Lager');
 define('CONFIGURATION_GROUP_9_DESCRIPTION','Konfiguration des Lagerbestandes');
 define('CONFIGURATION_GROUP_10_TITLE','Protokoll');
