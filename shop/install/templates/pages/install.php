@@ -43,7 +43,7 @@
       result.shift();
 
       if (result[0] == '1') {
-        $('#mBoxContents').html('<p><img src="images/progress.gif" align="right" hspace="5" vspace="5" />Die Datenbank wird nun importiert. Bitte haben Sie Geduld.</p>');
+        $('#mBoxContents').html('<p><img src="images/progress.gif" align="right" hspace="5" vspace="5" />Die Datenbank wird nun importiert. Bitte haben Sie etwas Geduld.</p>');
 
         $.get('rpc.php?action=dbImport&server=' + encodeURIComponent(dbServer) + '&username=' + encodeURIComponent(dbUsername) + '&password='+ encodeURIComponent(dbPassword) + '&name=' + encodeURIComponent(dbName), function (response2) {
           var result2 = /\[\[([^|]*?)(?:\|([^|]*?)){0,1}\]\]/.exec(response2);
