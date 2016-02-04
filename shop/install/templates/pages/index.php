@@ -176,7 +176,7 @@
 ?>
 
      <p>Es ist nicht m&ouml;glich die Installationsparameter in einer Datei zu speichern.</p>
-      <p>Folgende Dateien m&uuml;ssen Schreibrechte besitzen (Auf UNIX-Systemen das Writeable-Bit per chmod a+w setzen):</p>
+      <p>Folgende Dateien m&uuml;ssen Schreibrechte besitzen (Auf UNIX-Systemen das Writeable-Bit per chmod a+w auf die folgenden Dateien setzen):</p>
       <p>
 
 <?php
@@ -220,7 +220,7 @@
 	<p>Die f&uuml;r die Installation von osCommerce ben&ouml;tigten Einstellungen sind vorhanden.</p>
 
     <div id="jsOn" style="display: none;">
-       <p>dr&uuml;cken Sie auf Start um die Installation zu starten.</p>
+       <p>Dr&uuml;cken Sie auf Start um die Installation zu starten.</p>
       <p><?php echo osc_draw_button('Start', 'triangle-1-e', 'install.php', 'primary'); ?></p>
     </div>
 
