@@ -176,7 +176,7 @@
 ?>
 
      <p>Es ist nicht m&ouml;glich die Installationsparameter in einer Datei zu speichern.</p>
-      <p>Folgende Dateien m&uuml;ssen Schreibrechte besitzen (chmod 777):</p>
+      <p>Folgende Dateien m&uuml;ssen Schreibrechte besitzen (UNIX-Rechte 644):</p>
       <p>
 
 <?php
