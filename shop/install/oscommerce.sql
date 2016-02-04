@@ -1576,7 +1576,7 @@ Audio: Dolby Surround 5.1.<br />
 Picture Format: 16:9 Wide-Screen.<br />
 Length: (approx) 115 minutes.<br />
 Other: Interactive Menus, Chapter Selection, Subtitles (more languages).', '', '0');
-insert into products_description (products_id, language_id, products_name, products_description, products_url, products_viewed) values ('16', '1', 'Courage Under Fire', 'Regional Code: 2 (Japan, Europe, Middle East, South Africa).<br />
+insert into products_description (products_id, language_id, products_name, products_description, products_url, products_viewed) values ('16', '1', 'Mut zur Wahrheit', 'Regional Code: 2 (Japan, Europe, Middle East, South Africa).<br />
 Languages: English, Deutsch.<br />
 Subtitles: English, Deutsch, Spanish.<br />
 Audio: Dolby Surround 5.1.<br />
