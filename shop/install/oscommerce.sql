@@ -966,8 +966,8 @@ create table languages (
   KEY IDX_LANGUAGES_NAME (name)
 )CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
-insert into languages (languages_id, name, code, image, directory, sort_order) values ('1', 'English', 'en', 'icon.gif', 'english', '1');
-insert into languages (languages_id, name, code, image, directory, sort_order) values ('2', 'Deutsch', 'de', 'icon.gif', 'german', '2');
+insert into languages (languages_id, name, code, image, directory, sort_order) values ('2', 'English', 'en', 'icon.gif', 'english', '1');
+insert into languages (languages_id, name, code, image, directory, sort_order) values ('1', 'Deutsch', 'de', 'icon.gif', 'german', '2');
 
 drop table if exists manufacturers;
 create table manufacturers (
@@ -1462,7 +1462,7 @@ Audio: Dolby Surround.<br />
 Picture Format: 16:9 Wide-Screen.<br />
 Length: (approx) 131 minutes.<br />
 Other: Interactive Menus, Chapter Selection, Making Of.', 'www.thematrix.com', '4');
-insert into products_description (products_id, language_id, products_name, products_description, products_url, products_viewed) values ('7', '1', 'You\'ve Got Mail', 'Regional Code: 2 (Japan, Europe, Middle East, South Africa).<br />
+insert into products_description (products_id, language_id, products_name, products_description, products_url, products_viewed) values ('7', '1', 'Email für dich', 'Regional Code: 2 (Japan, Europe, Middle East, South Africa).<br />
 Languages: English, Deutsch, Spanish.<br />
 Subtitles: English, Deutsch, Spanish, French, Nordic, Polish.<br />
 Audio: Dolby Digital 5.1.<br />
@@ -1490,7 +1490,7 @@ Audio: Dolby Digital 5.1 / Dobly Surround Stereo.<br />
 Picture Format: 16:9 Wide-Screen.<br />
 Length: (approx) 91 minutes.<br />
 Other: Interactive Menus, Chapter Selection, Subtitles (more languages).', 'www.abugslife.com', '1');
-insert into products_description (products_id, language_id, products_name, products_description, products_url, products_viewed) values ('9', '1', 'Under Siege', 'Regional Code: 2 (Japan, Europe, Middle East, South Africa).<br />
+insert into products_description (products_id, language_id, products_name, products_description, products_url, products_viewed) values ('9', '1', 'Alarmstufe Rot', 'Regional Code: 2 (Japan, Europe, Middle East, South Africa).<br />
 Languages: English, Deutsch.<br />
 Subtitles: English, Deutsch, Spanish.<br />
 Audio: Dolby Surround 5.1.<br />
@@ -1504,7 +1504,7 @@ Audio: Dolby Surround 5.1.<br />
 Picture Format: 16:9 Wide-Screen.<br />
 Length: (approx) 98 minutes.<br />
 Other: Interactive Menus, Chapter Selection, Subtitles (more languages).', '', '0');
-insert into products_description (products_id, language_id, products_name, products_description, products_url, products_viewed) values ('10', '1', 'Under Siege 2 - Dark Territory', 'Regional Code: 2 (Japan, Europe, Middle East, South Africa).<br />
+insert into products_description (products_id, language_id, products_name, products_description, products_url, products_viewed) values ('10', '1', 'Alarmstufe Rot 2 - Dark Territory', 'Regional Code: 2 (Japan, Europe, Middle East, South Africa).<br />
 Languages: English, Deutsch.<br />
 Subtitles: English, Deutsch, Spanish.<br />
 Audio: Dolby Surround 5.1.<br />
@@ -1532,7 +1532,7 @@ Audio: Dolby Surround 5.1.<br />
 Picture Format: 16:9 Wide-Screen.<br />
 Length: (approx) 100 minutes.<br />
 Other: Interactive Menus, Chapter Selection, Subtitles (more languages).', '', '0');
-insert into products_description (products_id, language_id, products_name, products_description, products_url, products_viewed) values ('12', '1', 'Die Hard With A Vengeance', 'Regional Code: 2 (Japan, Europe, Middle East, South Africa).<br />
+insert into products_description (products_id, language_id, products_name, products_description, products_url, products_viewed) values ('12', '1', 'Stirb Langsam - Jetzt erst recht', 'Regional Code: 2 (Japan, Europe, Middle East, South Africa).<br />
 Languages: English, Deutsch.<br />
 Subtitles: English, Deutsch, Spanish.<br />
 Audio: Dolby Surround 5.1.<br />
@@ -1881,7 +1881,7 @@ create table tax_class (
   PRIMARY KEY (tax_class_id)
 )CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
-insert into tax_class (tax_class_id, tax_class_title, tax_class_description, last_modified, date_added) values ('1', '19 Prozent', '19 Prozent', '2015-03-03 16:52:23', '2015-02-23 09:52:45');
+insert into tax_class (tax_class_id, tax_class_title, tax_class_description, last_modified, date_added) values ('1', '19 Prozent', '19 Prozent', '2015-03-03 16:52:23', '2016-02-04 09:52:45');
 drop table if exists tax_rates;
 create table tax_rates (
   tax_rates_id int(11) not null auto_increment,
@@ -1895,7 +1895,7 @@ create table tax_rates (
   PRIMARY KEY (tax_rates_id)
 )CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
-insert into tax_rates (tax_rates_id, tax_zone_id, tax_class_id, tax_priority, tax_rate, tax_description, last_modified, date_added) values ('1', '1', '1', '1', '19.0000', '19.0% MwSt', '2015-03-03 16:52:41', '2015-02-23 09:52:45');
+insert into tax_rates (tax_rates_id, tax_zone_id, tax_class_id, tax_priority, tax_rate, tax_description, last_modified, date_added) values ('1', '1', '1', '1', '19.0000', '19.0% MwSt', '2016-02-04 16:52:41', '2015-02-23 09:52:45');
 
 drop table if exists usu_cache;
 create table usu_cache (
