@@ -1693,13 +1693,13 @@ create table products_options (
   PRIMARY KEY (products_options_id, language_id)
 )CHARACTER SET utf8 COLLATE utf8_unicode_ci;;
 
-insert into products_options (products_options_id, language_id, products_options_name) values ('1', '1', 'Color');
+insert into products_options (products_options_id, language_id, products_options_name) values ('1', '1', 'Farbe');
 insert into products_options (products_options_id, language_id, products_options_name) values ('1', '2', 'Color');
-insert into products_options (products_options_id, language_id, products_options_name) values ('2', '1', 'Size');
+insert into products_options (products_options_id, language_id, products_options_name) values ('2', '1', 'Größe');
 insert into products_options (products_options_id, language_id, products_options_name) values ('2', '2', 'Size');
-insert into products_options (products_options_id, language_id, products_options_name) values ('3', '1', 'Model');
+insert into products_options (products_options_id, language_id, products_options_name) values ('3', '1', 'Modell');
 insert into products_options (products_options_id, language_id, products_options_name) values ('3', '2', 'Model');
-insert into products_options (products_options_id, language_id, products_options_name) values ('4', '1', 'Memory');
+insert into products_options (products_options_id, language_id, products_options_name) values ('4', '1', 'Speicher');
 insert into products_options (products_options_id, language_id, products_options_name) values ('4', '2', 'Memory');
 insert into products_options (products_options_id, language_id, products_options_name) values ('5', '1', 'Version');
 insert into products_options (products_options_id, language_id, products_options_name) values ('5', '2', 'Version');
