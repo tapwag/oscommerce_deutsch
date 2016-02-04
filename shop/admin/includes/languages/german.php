@@ -124,7 +124,7 @@ define('BOX_TOOLS_FILE_MANAGER', 'Datei-Manager');
 define('BOX_TOOLS_MAIL', 'Email versenden');
 define('BOX_TOOLS_NEWSLETTER_MANAGER', 'Rundschreiben Manager');
 define('BOX_TOOLS_SEC_DIR_PERMISSIONS', 'Verzeichnis Sicherheit/Lesezugriffsrecht');
-define('BOX_TOOLS_SERVER_INFO', 'Server Info');
+define('BOX_TOOLS_SERVER_INFO', 'Server Information');
 define('BOX_TOOLS_VERSION_CHECK', 'Version pr&uuml;fen');
 define('BOX_TOOLS_WHOS_ONLINE', 'Wer ist online');
 
@@ -1943,7 +1943,7 @@ define('MODULE_CONTENT_CHECKOUT_SUCCESS_PRODUCT_NOTIFICATIONS_SORT_ORDER_DESCRIP
 define('MODULE_CONTENT_CREATE_ACCOUNT_LINK_STATUS_TITLE', 'Soll die Box im Shop angezeigt werden?');
 define('MODULE_CONTENT_CREATE_ACCOUNT_LINK_STATUS_DESCRIPTION', 'Sollen die Box "Kundenkonto erstellen" auf der Login Seite angezeigt werden?');
 define('MODULE_CONTENT_CREATE_ACCOUNT_LINK_CONTENT_WIDTH_TITLE', 'Breite');
-define('MODULE_CONTENT_CREATE_ACCOUNT_LINK_CONTENT_WIDTH_DESCRIPTION', 'volle Breite order halbe Breite');
+define('MODULE_CONTENT_CREATE_ACCOUNT_LINK_CONTENT_WIDTH_DESCRIPTION', 'Volle Breite order halbe Breite');
 define('MODULE_CONTENT_CREATE_ACCOUNT_LINK_SORT_ORDER_TITLE', 'Sortierreihenfolge');
 define('MODULE_CONTENT_CREATE_ACCOUNT_LINK_SORT_ORDER_DESCRIPTION', 'Sortierreihenfolge. Niedrigster Wert zuerst.');
 
@@ -1957,7 +1957,7 @@ define('MODULE_CONTENT_CHECKOUT_SUCCESS_REDIRECT_OLD_ORDER_SORT_ORDER_DESCRIPTIO
 define('MODULE_CONTENT_LOGIN_FORM_STATUS_TITLE', 'Soll die Box im Shop angezeigt werden?');
 define('MODULE_CONTENT_LOGIN_FORM_STATUS_DESCRIPTION', 'Soll der Kunde sich im Shop anmelden k&ouml;nnen?');
 define('MODULE_CONTENT_LOGIN_FORM_CONTENT_WIDTH_TITLE', 'Breite');
-define('MODULE_CONTENT_LOGIN_FORM_CONTENT_WIDTH_DESCRIPTION', 'volle Breite order halbe Breite');
+define('MODULE_CONTENT_LOGIN_FORM_CONTENT_WIDTH_DESCRIPTION', 'Volle Breite order halbe Breite');
 define('MODULE_CONTENT_LOGIN_FORM_SORT_ORDER_TITLE', 'Sortierreihenfolge');
 define('MODULE_CONTENT_LOGIN_FORM_SORT_ORDER_DESCRIPTION', 'Sortierreihenfolge. Niedrigster Wert zuerst.');
 
@@ -1974,8 +1974,8 @@ define('MODULE_CONTENT_CHECKOUT_SUCCESS_THANK_YOU_SORT_ORDER_DESCRIPTION', 'Sort
 
 define('MODULE_CONTENT_ACCOUNT_SET_PASSWORD_STATUS_TITLE', 'Modul aktivieren?');
 define('MODULE_CONTENT_ACCOUNT_SET_PASSWORD_STATUS_DESCRIPTION', 'Soll das Modul aktiviert werden?');
-define('MODULE_CONTENT_ACCOUNT_SET_PASSWORD_ALLOW_PASSWORD_TITLE', 'lokale Passw&ouml;rter erlauben');
-define('MODULE_CONTENT_ACCOUNT_SET_PASSWORD_ALLOW_PASSWORD_DESCRIPTION', 'Sollen lokale passw&ouml;rter erlaubt werden?');
+define('MODULE_CONTENT_ACCOUNT_SET_PASSWORD_ALLOW_PASSWORD_TITLE', 'Lokale Passw&ouml;rter erlauben');
+define('MODULE_CONTENT_ACCOUNT_SET_PASSWORD_ALLOW_PASSWORD_DESCRIPTION', 'Sollen lokale Passw&ouml;rter erlaubt werden?');
 define('MODULE_CONTENT_ACCOUNT_SET_PASSWORD_SORT_ORDER_TITLE', 'Sortierreihenfolge');
 define('MODULE_CONTENT_ACCOUNT_SET_PASSWORD_SORT_ORDER_DESCRIPTION', 'Sortierreihenfolge. Niedrigster Wert zuerst.');
 ?>
