@@ -18,7 +18,7 @@
 ?>
 
 <div class="mainBlock">
-  <h1>Willkommen bei osCommerce deutsche Version<?php echo osc_get_version(); ?>!</h1>
+  <h1>Willkommen bei osCommerce deutsche Version <?php echo osc_get_version(); ?>!</h1>
 
  <p>osCommerce hilft Ihnen Produkte weltweit in Ihrem eigenen Shop zu verkaufen. Im Administrationsbereich k&ouml;nnen Sie Produkte, Kunden, Bestellungen, Newsletter, Spezialangebote und mehr verwalten, um einen erfolgreichen Online-Shop aufzubauen.</p>
   <p>osCommerce hat eine gro&szlig;e Gemeinde an Shopbesitzern und Entwicklern und bietet &uuml;er 6000 freie Zusatzmodule um Ihren Shop zu erweitern und erfolgreicher zu machen.</p>
@@ -217,10 +217,10 @@
   } else {
 ?>
 
-	<p>Die ben&ouml;tigten Einstellungen, um osCommerce zu installieren, sind vorhanden.</p>
+	<p>Die f&uuml;r die Installation von osCommerce ben&ouml;tigten Einstellungen sind vorhanden.</p>
 
     <div id="jsOn" style="display: none;">
-       <p>Fahren Sie fort um die Installation zu starten.</p>
+       <p>dr&uuml;cken Sie auf Start um die Installation zu starten.</p>
       <p><?php echo osc_draw_button('Start', 'triangle-1-e', 'install.php', 'primary'); ?></p>
     </div>
 
