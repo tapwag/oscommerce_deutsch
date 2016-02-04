@@ -18,7 +18,7 @@ define('TABLE_HEADING_SORT_ORDER', 'Sortierreihenfolge');
 define('TABLE_HEADING_ACTION', 'Aktion');
 
 define('TEXT_INFO_VERSION', 'Version:');
-define('TEXT_INFO_ONLINE_STATUS', 'online Status');
+define('TEXT_INFO_ONLINE_STATUS', 'Online Status');
 define('TEXT_INFO_API_VERSION', 'API Version:');
 
 define('TEXT_MODULE_DIRECTORY', 'Modulverzeichnis:');
