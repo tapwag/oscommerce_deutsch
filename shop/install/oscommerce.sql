@@ -1260,16 +1260,16 @@ insert into pages_description (id, pages_id, pages_title, pages_html_text, intor
 <li>Sie k&ouml;nnen bei uns per &Uuml;berweisung bezahlen.</li>
 </ul>
 </div>
-</div>', '1', 'shipping.php', '0', '2');
-insert into pages_description (id, pages_id, pages_title, pages_html_text, intorext, externallink, link_target, language_id) values ('3', '4', 'Welcome', 'Welcome to our store.', '0', '', '0', '2');
+</div>', '1', 'shipping.php', '0', '1');
 insert into pages_description (id, pages_id, pages_title, pages_html_text, intorext, externallink, link_target, language_id) values ('4', '4', 'Willkommen', 'Herzlich willkommen bei uns. ', '0', '', '0', '1');
+insert into pages_description (id, pages_id, pages_title, pages_html_text, intorext, externallink, link_target, language_id) values ('3', '4', 'Welcome', 'Welcome to our store.', '0', '', '0', '2');
 insert into pages_description (id, pages_id, pages_title, pages_html_text, intorext, externallink, link_target, language_id) values ('5', '5', 'Information about cancellation and returns', '<p>Place information about cancellation and leaving the contractual agreements here.</p>', '1', 'widerruf.php', '0', '2');
 insert into pages_description (id, pages_id, pages_title, pages_html_text, intorext, externallink, link_target, language_id) values ('6', '5', 'Widerrufsinformationen', '<p>F&uuml;gen Sie hier Informationen zum Widerruf ein. **** EN</p>', '1', 'widerruf.php', '0', '1');
 insert into pages_description (id, pages_id, pages_title, pages_html_text, intorext, externallink, link_target, language_id) values ('7', '6', 'Widerrufsformular', '', '1', 'widerruf_form.php', '0', '1');
 insert into pages_description (id, pages_id, pages_title, pages_html_text, intorext, externallink, link_target, language_id) values ('8', '6', 'Cancellation and Returns Form', '', '1', 'widerruf_form.php', '0', '2');
 insert into pages_description (id, pages_id, pages_title, pages_html_text, intorext, externallink, link_target, language_id) values ('9', '7', 'Privatsphäre und Datenschutz', 'Geben Sie Ihre Privatsphäre und Datenschutz Informationen hier ein! +++++++++++++', '1', 'privacy.php', '0', '1');
 insert into pages_description (id, pages_id, pages_title, pages_html_text, intorext, externallink, link_target, language_id) values ('10', '7', 'Privacy', 'Geben Sie Ihre Privatsphäre und Datenschutz Informationen hier ein! +++++++++++++', '1', 'privacy.php', '0', '2');
-insert into pages_description (id, pages_id, pages_title, pages_html_text, intorext, externallink, link_target, language_id) values ('11', '8', 'Impressum', '<p>This might not be applicable for you but the German Telemediengesetz requires every site on the Internet to have an Impressum with your detils.</p>', '0', '', '0', '2');
+insert into pages_description (id, pages_id, pages_title, pages_html_text, intorext, externallink, link_target, language_id) values ('11', '8', 'Imprint', '<p>This might not be applicable for you but the German Telemediengesetz requires every site on the Internet to have an Impressum with your detils.</p>', '0', '', '0', '2');
 insert into pages_description (id, pages_id, pages_title, pages_html_text, intorext, externallink, link_target, language_id) values ('12', '8', 'Impressum', '<p>Geben Sie hier Ihr Impressum ein.</p>', '0', '', '0', '1');
 insert into pages_description (id, pages_id, pages_title, pages_html_text, intorext, externallink, link_target, language_id) values ('13', '9', 'FAQ', 'Please place your Frequently Asked Questions list here. ', '0', '', '0', '2');
 insert into pages_description (id, pages_id, pages_title, pages_html_text, intorext, externallink, link_target, language_id) values ('14', '9', 'FAQ', 'Fügen Sie hier Ihre FAQ ein. ', '0', '', '0', '1');
@@ -1335,7 +1335,7 @@ insert into pages_description (id, pages_id, pages_title, pages_html_text, intor
 </div>', '1', 'shipping.php', '0', '2');
 insert into pages_description (id, pages_id, pages_title, pages_html_text, intorext, externallink, link_target, language_id) values ('21', '13', 'AGB', '<p>Diese allgemeinen Verkaufs-und Lieferbedingungen gelten f&uuml;r alle 
 Kaufvertr&auml;ge, die mit dem Shop Web Shop, XXX einbezogen sind. Mit der Bestellung erkl&auml;ren Sie sich mit diesen Bedingungen. <br> <br> Siehe den Volltext auf Deutsch oder Englisch, indem Sie auf der Landesflagge in der rechten Spalte klicken. Sie k&ouml;nnen dann wieder auf Ihre Sprache, indem Sie die Flagge Ihres Landes anklicken.</p>', '1', 'conditions.php', '0', '1');
-insert into pages_description (id, pages_id, pages_title, pages_html_text, intorext, externallink, link_target, language_id) values ('22', '13', 'Conditions', '<p>Put here your Conditions of Use information.</p>', '1', 'conditions.php', '0', '1');
+insert into pages_description (id, pages_id, pages_title, pages_html_text, intorext, externallink, link_target, language_id) values ('22', '13', 'Conditions', '<p>Put here your Conditions of Use information.</p>', '1', 'conditions.php', '0', '2');
 
 drop table if exists products;
 create table products (
