@@ -78,7 +78,7 @@
 
       <table border="0" width="100%" cellspacing="0" cellpadding="2">
         <tr>
-          <td colspan="2"><strong>ben&ouml;tigte PHP Erweiterungen</strong></td>
+          <td colspan="2"><strong>Ben&ouml;tigte PHP Erweiterungen</strong></td>
         </tr>
         <tr>
           <td>MySQL</td>
@@ -90,7 +90,7 @@
 
       <table border="0" width="100%" cellspacing="0" cellpadding="2">
         <tr>
-          <td colspan="2"><strong>optionale PHP Erweiterungen</strong></td>
+          <td colspan="2"><strong>Optionale PHP Erweiterungen</strong></td>
         </tr>
         <tr>
           <td>GD</td>
