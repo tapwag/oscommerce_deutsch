@@ -27,10 +27,12 @@
 
   /**
   * Homepage
-  * Note: The %s is where your shop name will go in the text
+  * Note: The %s is where your shop name will go in the text. The original version had Tischtennisshop (table tennis shop) inside it. 
+  * If you would like to add meta tags please write them below in the brackets after %s or %s - 
   */
-  define( 'KISSMT_HOMEPAGE_TITLE', '%s Tischtennisshop' );
-  define( 'KISSMT_HOMEPAGE_DESCRIPTION', '%s - Tischtennisshop' );
+  define( 'KISSMT_HOMEPAGE_TITLE', '%s ' );
+  define( 'KISSMT_HOMEPAGE_DESCRIPTION', '%s - ' );
+
   // Brand text ( manufacturer )
   define( 'KISSMT_BRAND_TEXT', 'bei %s' );
   // Manufacturers page (index.php)
