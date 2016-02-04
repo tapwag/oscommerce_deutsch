@@ -1,0 +1,19 @@
+.fieldKey
+{
+ font-style:verdana,arial;
+ font-size:11px;
+}
+.fieldValue
+{
+ font-style:verdana,arial;
+ font-size:11px;
+}
+h1
+{
+ font-style:verdana,arial;
+ font-size:13px;
+}
+.grid_24, .buttonSet, .footer, .headerNavigation, .boxText, .infoBoxHeading, .infoBox, .infoBoxContainer, .infoBoxNotice, .infoBoxTop, .infoBoxNoticeContents, .infoBoxContents, TD.infoBoxHeading, TD.infoBox, SPAN.infoBox, .noprint
+{
+ display:none;
+}
