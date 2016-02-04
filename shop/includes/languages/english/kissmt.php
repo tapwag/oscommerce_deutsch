@@ -25,8 +25,8 @@
   * Homepage
   * Note: The %s is where your shop name will go in the text
   */
-  define( 'KISSMT_HOMEPAGE_TITLE', 'My Great Product Range' );
-  define( 'KISSMT_HOMEPAGE_DESCRIPTION', 'Full Range of Wiggets' );
+  define( 'KISSMT_HOMEPAGE_TITLE', 'Our Product Range' );
+  define( 'KISSMT_HOMEPAGE_DESCRIPTION', 'Yet another Online Store' );
   // Brand text ( manufacturer )
   define( 'KISSMT_BRAND_TEXT', 'by %s' );
   // Manufacturers page (index.php)
@@ -52,14 +52,14 @@
   */
   // privacy.php
   define( 'KISSMT_PRIVACY_TITLE_TEXT', '%s privacy statement from ' . STORE_NAME );
-  define( 'KISSMT_PRIVACY_DESCRIPTION_TEXT', 'We take all possible measures to ensure the safety of your privacy and information' );
+  define( 'KISSMT_PRIVACY_DESCRIPTION_TEXT', 'We take all possible measures to ensure the safety of your privacy and information.' );
   // conditions.php
   define( 'KISSMT_CONDITIONS_TITLE_TEXT', '%s conditions statement from ' . STORE_NAME );
-  define( 'KISSMT_CONDITIONS_DESCRIPTION_TEXT', 'information about conditions of usage.' );
+  define( 'KISSMT_CONDITIONS_DESCRIPTION_TEXT', 'Information about conditions of usage.' );
   // shipping.php
   define( 'KISSMT_SHIPPING_TITLE_TEXT', '%s information at ' . STORE_NAME );
   define( 'KISSMT_SHIPPING_DESCRIPTION_TEXT', 'Shipping, packaging and handling.' );
   // contact_us.php
   define( 'KISSMT_CONTACT_US_TITLE_TEXT', '%s if you need assistance from ' . STORE_NAME );
-  define( 'KISSMT_CONTACT_US_DESCRIPTION_TEXT', 'Should you have any questions or queries, please don\'t hesitate.' );
+  define( 'KISSMT_CONTACT_US_DESCRIPTION_TEXT', 'Should you have any questions or queries, please don\'t hesitate to contact us..' );
 ?>

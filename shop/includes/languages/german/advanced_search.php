@@ -20,12 +20,12 @@ define('HEADING_SEARCH_CRITERIA', 'Geben Sie Ihre Stichworte ein');
 
 define('TEXT_SEARCH_IN_DESCRIPTION', 'Auch in den Beschreibungen suchen');
 define('ENTRY_CATEGORIES', 'Kategorien:');
-define('ENTRY_INCLUDE_SUBCATEGORIES', 'Unterkategorien mit einbeziehen');
+define('ENTRY_INCLUDE_SUBCATEGORIES', 'Unterkategorien einbeziehen');
 define('ENTRY_MANUFACTURERS', 'Hersteller:');
 define('ENTRY_PRICE_FROM', 'Preis ab:');
 define('ENTRY_PRICE_TO', 'Preis bis:');
-define('ENTRY_DATE_FROM', 'hinzugef&uuml;gt von:');
-define('ENTRY_DATE_TO', 'hinzugef&uuml;gt bis:');
+define('ENTRY_DATE_FROM', 'Hinzugef&uuml;gt von:');
+define('ENTRY_DATE_TO', 'Hinzugef&uuml;gt bis:');
 
 define('TEXT_SEARCH_HELP_LINK', '<u>Hilfe zur erweiterten Suche</u> [?]');
 
@@ -43,11 +43,11 @@ define('TABLE_HEADING_MANUFACTURER', 'Hersteller');
 define('TABLE_HEADING_QUANTITY', 'Anzahl');
 define('TABLE_HEADING_PRICE', 'Einzelpreis');
 define('TABLE_HEADING_WEIGHT', 'Gewicht');
-define('TABLE_HEADING_BUY_NOW', 'jetzt bestellen');
+define('TABLE_HEADING_BUY_NOW', 'Jetzt bestellen');
 
 define('TEXT_NO_PRODUCTS', 'Es wurden keine Artikel gefunden, die den Suchkriterien entsprechen.');
 
-define('ERROR_AT_LEAST_ONE_INPUT', 'Wenigstens ein Feld des Suchformulars muss ausgef&uuml;llt werden.');
+define('ERROR_AT_LEAST_ONE_INPUT', 'Mindestens ein Feld des Suchformulars muss ausgef&uuml;llt werden.');
 define('ERROR_INVALID_FROM_DATE', 'Unzul&auml;ssiges von Datum');
 define('ERROR_INVALID_TO_DATE', 'Unzul&auml;ssiges bis jetzt Datum');
 define('ERROR_TO_DATE_LESS_THAN_FROM_DATE', 'Das Datum von muss gr&ouml;&szlig;Fer oder gleich dem bis jetzt Datum sein');
