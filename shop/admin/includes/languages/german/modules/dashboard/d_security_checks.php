@@ -12,5 +12,5 @@
 
 define('MODULE_ADMIN_DASHBOARD_SECURITY_CHECKS_TITLE', 'Sicherheit');
 define('MODULE_ADMIN_DASHBOARD_SECURITY_CHECKS_DESCRIPTION', 'Sicherheits&uuml;berpr&uuml;fung durchf&uuml;hren');
-define('MODULE_ADMIN_DASHBOARD_SECURITY_CHECKS_SUCCESS', 'Das ist eine richtig konfigurierte Installation von osCommerce Online Merchant!');
+define('MODULE_ADMIN_DASHBOARD_SECURITY_CHECKS_SUCCESS', 'Diese Installation von osCommerce Online Merchant ist richtig konfiguriert.');
 ?>
