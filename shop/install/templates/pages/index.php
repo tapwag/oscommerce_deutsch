@@ -211,7 +211,7 @@
     }
 ?>
 
-    <p><?php echo osc_draw_button('Retry', 'arrowrefresh-1-e', 'index.php', 'primary'); ?></p>
+    <p><?php echo osc_draw_button('Nochmals versuchen', 'arrowrefresh-1-e', 'index.php', 'primary'); ?></p>
 
 <?php
   } else {
