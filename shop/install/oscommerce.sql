@@ -1334,8 +1334,8 @@ insert into pages_description (id, pages_id, pages_title, pages_html_text, intor
 </div>
 </div>', '1', 'shipping.php', '0', '1');
 insert into pages_description (id, pages_id, pages_title, pages_html_text, intorext, externallink, link_target, language_id) values ('21', '13', 'AGB', '<p>Diese allgemeinen Verkaufs-und Lieferbedingungen gelten f&uuml;r alle 
-Kaufvertr&auml;ge, die mit dem Shop Web Shop, XXX einbezogen sind. Mit der Bestellung erkl&auml;ren Sie sich mit diesen Bedingungen. <br> <br> Siehe den Volltext auf Deutsch oder Englisch, indem Sie auf der Landesflagge in der rechten Spalte klicken. Sie k&ouml;nnen dann wieder auf Ihre Sprache, indem Sie die Flagge Ihres Landes anklicken.</p>', '1', 'conditions.php', '0', '2');
-insert into pages_description (id, pages_id, pages_title, pages_html_text, intorext, externallink, link_target, language_id) values ('22', '13', 'Conditions', '<p>Put here your Conditions of Use information.</p>', '1', 'conditions.php', '0', '1');
+Kaufvertr&auml;ge, die mit dem Shop Web Shop, XXX einbezogen sind. Mit der Bestellung erkl&auml;ren Sie sich mit diesen Bedingungen. <br> <br> Siehe den Volltext auf Deutsch oder Englisch, indem Sie auf der Landesflagge in der rechten Spalte klicken. Sie k&ouml;nnen dann wieder auf Ihre Sprache, indem Sie die Flagge Ihres Landes anklicken.</p>', '1', 'conditions.php', '0', '1');
+insert into pages_description (id, pages_id, pages_title, pages_html_text, intorext, externallink, link_target, language_id) values ('22', '13', 'Conditions', '<p>Put here your Conditions of Use information.</p>', '1', 'conditions.php', '0', '2');
 
 drop table if exists products;
 create table products (
