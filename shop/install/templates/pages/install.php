@@ -114,7 +114,7 @@
 
     <div class="infoPaneContents">
       <p>Der Datenbankserver speichert die Shopinformationen &uuml;ber Produkte, Kunden und Bestellungen.</p>
-      <p>Bitte informieren Sie sich bei Ihrem Provider oder Administrator, wenn Ihnen die Zugangsdaten f&uuml;r Ihren Datenbankserver nicht bekannt sind.</p>
+      <p>Bitte informieren Sie sich bei Ihrem Hostinganbieter oder Administrator, wenn Ihnen die Zugangsdaten f&uuml;r Ihren Datenbankserver nicht bekannt sind.</p>
     </div>
   </div>
   </div>
