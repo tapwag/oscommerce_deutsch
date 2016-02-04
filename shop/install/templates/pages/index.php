@@ -114,7 +114,7 @@
   </div>
 
   <div class="contentPane">
-    <h2>neue Installation</h2>
+    <h2>Neue Installation</h2>
 
 <?php
   $configfile_array = array();

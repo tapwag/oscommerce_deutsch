@@ -76,7 +76,7 @@
         $restore_query = fread($fd, filesize($sql_file));
         fclose($fd);
       } else {
-        $db_error = 'SQL file does not exist: ' . $sql_file;
+        $db_error = 'SQL Datei existiert nicht: ' . $sql_file;
         return false;
       }
 
