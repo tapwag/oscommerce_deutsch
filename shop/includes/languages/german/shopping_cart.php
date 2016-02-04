@@ -11,7 +11,7 @@
 */
 
 define('NAVBAR_TITLE', 'Warenkorb');
-define('HEADING_TITLE', 'Ihr Warenkorb enth&auml;lt :');
+define('HEADING_TITLE', 'Ihr Warenkorb enth&auml;lt:');
 //define('TABLE_HEADING_QUANTITY', 'Anzahl');
 //define('TABLE_HEADING_MODEL', 'Artikelnr.');
 define('TABLE_HEADING_PRODUCTS', 'Artikel');
