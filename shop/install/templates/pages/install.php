@@ -60,7 +60,7 @@
           } else {
             var result2_error = result2[1].replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
-            $('#mBoxContents').html('<p><img src="images/failed.gif" align="right" hspace="5" vspace="5" />W&auml;hrend dem Datenbankimport trat ein Fehler auf. Folgende Fehler sind aufgetreten:</p><p><strong>%s</strong></p><p>Bitte &uuml;berpr&uuml;fen Sie die Einstellungen, und versuchen Sie es erneut.</p>'.replace('%s', result2_error));
+            $('#mBoxContents').html('<p><img src="images/failed.gif" align="right" hspace="5" vspace="5" />W&auml;hrend dem Datenbankimport trat ein Fehler auf. Folgende Fehler sind aufgetreten:</p><p><strong>%s</strong></p><p>Bitte &uuml;berpr&uuml;fen Sie die Einstellungen und versuchen Sie es erneut.</p>'.replace('%s', result2_error));
 
             formSubmited = false;
           }
