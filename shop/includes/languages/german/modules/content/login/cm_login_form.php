@@ -15,7 +15,7 @@
 
   define('MODULE_CONTENT_LOGIN_HEADING_RETURNING_CUSTOMER', 'Ich bin schon Kunde');
   define('MODULE_CONTENT_LOGIN_TEXT_RETURNING_CUSTOMER', 'Kundendaten');
-  define('MODULE_CONTENT_LOGIN_TEXT_PASSWORD_FORGOTTEN', 'Passwort vergessen? Hier anklicken!');
+  define('MODULE_CONTENT_LOGIN_TEXT_PASSWORD_FORGOTTEN', 'Passwort vergessen? Hier klicken!');
 
   define('MODULE_CONTENT_LOGIN_TEXT_LOGIN_ERROR', 'Fehler: Keine &Uuml;bereinstimmung mit dieser E-Mail Addresse und/oder Passwort.');
 ?>
