@@ -18,7 +18,7 @@
 ?>
 
 <div class="mainBlock">
-  <h1>Willkommen bei osCommerce Deutsche Version <?php echo osc_get_version(); ?>!</h1>
+  <h1>Willkommen bei osCommerce Deutsche Version <?php echo osc_get_version(); ?></h1>
 
  <p>osCommerce hilft Ihnen Produkte weltweit in Ihrem eigenen Shop zu verkaufen. Im Administrationsbereich k&ouml;nnen Sie Produkte, Kunden, Bestellungen, Newsletter, Spezialangebote und mehr verwalten, um einen erfolgreichen Online-Shop aufzubauen.</p>
   <p>osCommerce hat eine gro&szlig;e Gemeinde an Shopbesitzern und Entwicklern und bietet &uuml;ber 6000 freie Zusatzmodule um Ihren Shop zu erweitern und erfolgreicher zu machen.</p>
@@ -144,7 +144,7 @@
   }
 
   if (!extension_loaded('mysql')) {
-    $warning_array['mysql'] = 'Das MySQL-Modul ist f&uuml;r PHP ist nicht installiert.Btite installieren Sie das Modul, bevor Sie mit der Installation fortfahren.';
+    $warning_array['mysql'] = 'Das MySQL-Modul ist f&uuml;r PHP ist nicht installiert. Bitte installieren Sie das Modul, bevor Sie mit der Installation fortfahren.';
   }
 
   if ((sizeof($configfile_array) > 0) || (sizeof($warning_array) > 0)) {
