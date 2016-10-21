@@ -18,7 +18,7 @@
 ?>
 
 <div class="mainBlock">
-  <h1>Welcome to osCommerce Online Merchant v<?php echo osc_get_version(); ?>!</h1>
+  <h1>Willkommen bei osCommerce Online Merchant v<?php echo osc_get_version(); ?>!</h1>
 
   <p>osCommerce Online Merchant hilft Ihnen dabei Ihre Produkte weltweit in einem Onlinestore zu verkaufen. Sein Administrationswerkzeug verwaltet Produkte, Kunden, Bestellungen, Newsletter, Sonderangebote und vieles mehr f&uuml;r Ihren Erfolg im Onlinegesch&auml;ft.</p>
   <p>osCommerce hat eine grosse Gemeinschaft von Inhabern und Entwicklern angezogen, die sich gegenseitig unterst&uuml;tzen und &uuml;ber 7000 kostenlose Erweiterungen anbieten, die die Funktionalit&auml;t und das Potential Ihres Onlinegesch&auml;ft erweitern können.</p>
