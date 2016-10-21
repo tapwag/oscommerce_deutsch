@@ -26,7 +26,7 @@
 
 <div class="contentBlock">
   <div class="infoPane">
-    <h3>Server Capabilities</h3>
+    <h3>Serverf&auml;higkeiten</h3>
 
     <div class="infoPaneContents">
       <table border="0" width="100%" cellspacing="0" cellpadding="2">
@@ -217,7 +217,7 @@
   } else {
 ?>
 
-    <p>The webserver environment has been verified to proceed with a successful installation and configuration of your online store.</p>
+    <p>Die Umgebung Ihres Webservers wurde &uuml;berpr&uuml;ft damit mit einer erfolgreichen Installation und Konfiguration Ihres Onlineshops fortgefahren werden kann.</p>
 
     <div id="jsOn" style="display: none;">
       <p>Bitte fahren Sie fort um den Installationsprozess zu starten.</p>
