@@ -135,7 +135,7 @@
       </tr>
       <tr>
         <td class="inputField"><?php echo 'Benutzername<br />' . osc_draw_input_field('DB_SERVER_USERNAME', null, 'class="text"'); ?></td>
-         <td class="inputDescription">Der für die Anmeldung am Datenbankserver benötigte Benutzername:</td>
+         <td class="inputDescription">Der für die Anmeldung am Datenbankserver benötigte Benutzername.</td>
       </tr>
       <tr>
         <td class="inputField"><?php echo 'Passwort<br />' . osc_draw_password_field('DB_SERVER_PASSWORD', 'class="text"'); ?></td>
