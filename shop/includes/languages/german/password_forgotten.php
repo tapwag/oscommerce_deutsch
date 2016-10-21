@@ -15,7 +15,7 @@ define('NAVBAR_TITLE_2', 'Passwort vergessen');
 
 define('HEADING_TITLE', 'Ich habe mein Passwort vergessen!');
 
-define('TEXT_MAIN', 'Wenn Sie Ihr Passwort vergessen haben, geben Sie Ihre E-Mail-Adresse ein und wir senden Ihnen Anweisungen, wie sicher Ihr Passwort &auml;ndern.');
+define('TEXT_MAIN', 'Wenn Sie Ihr Passwort vergessen haben, geben Sie Ihre E-Mail-Adresse ein und wir senden Ihnen Anweisungen um Ihr Passwort sicher zu &auml;ndern.');
 
 define('TEXT_PASSWORD_RESET_INITIATED', ' &uuml;berpr&uuml;fen Sie Ihre E-Mail-Anweisungen, wie Sie Ihr Passwort zu &auml;ndern. Es enth&auml;lt einen Link, der f&uuml;r 24 Stunden oder bis das Passwort wurde aktualisiert funktioniert.');
 
