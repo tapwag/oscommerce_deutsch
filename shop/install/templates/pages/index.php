@@ -18,15 +18,15 @@
 ?>
 
 <div class="mainBlock">
-  <h1>Willkommen bei osCommerce Deutsche Version <?php echo osc_get_version(); ?></h1>
+  <h1>Welcome to osCommerce Online Merchant v<?php echo osc_get_version(); ?>!</h1>
 
- <p>osCommerce hilft Ihnen Produkte weltweit in Ihrem eigenen Shop zu verkaufen. Im Administrationsbereich k&ouml;nnen Sie Produkte, Kunden, Bestellungen, Newsletter, Spezialangebote und mehr verwalten, um einen erfolgreichen Online-Shop aufzubauen.</p>
-  <p>osCommerce hat eine gro&szlig;e Gemeinde an Shopbesitzern und Entwicklern und bietet &uuml;ber 6000 freie Zusatzmodule um Ihren Shop zu erweitern und erfolgreicher zu machen.</p>
+  <p>osCommerce Online Merchant hilft Ihnen dabei Ihre Produkte weltweit in einem Onlinestore zu verkaufen. Sein Administrationswerkzeug verwaltet Produkte, Kunden, Bestellungen, Newsletter, Sonderangebote und vieles mehr f&uuml;r Ihren Erfolg im Onlinegesch&auml;ft.</p>
+  <p>osCommerce hat eine grosse Gemeinschaft von Inhabern und Entwicklern angezogen, die sich gegenseitig unterst&uuml;tzen und &uuml;ber 7000 kostenlose Erweiterungen anbieten, die die Funktionalit&auml;t und das Potential Ihres Onlinegesch&auml;ft erweitern können.</p>
 </div>
 
 <div class="contentBlock">
   <div class="infoPane">
-    <h3>Servereinstellungen</h3>
+    <h3>Server Capabilities</h3>
 
     <div class="infoPaneContents">
       <table border="0" width="100%" cellspacing="0" cellpadding="2">
@@ -78,10 +78,10 @@
 
       <table border="0" width="100%" cellspacing="0" cellpadding="2">
         <tr>
-          <td colspan="2"><strong>Ben&ouml;tigte PHP Erweiterungen</strong></td>
+          <td colspan="2"><strong>Erforderliche PHP Erweiterungen</strong></td>
         </tr>
         <tr>
-          <td>MySQL</td>
+          <td>MySQL<?php echo extension_loaded('mysqli') ? 'i' : ''; ?></td>
           <td align="right"><img src="images/<?php echo (extension_loaded('mysql') || extension_loaded('mysqli') ? 'success.gif' : 'failed.gif'); ?>" width="16" height="16" /></td>
         </tr>
       </table>
@@ -90,7 +90,7 @@
 
       <table border="0" width="100%" cellspacing="0" cellpadding="2">
         <tr>
-          <td colspan="2"><strong>Optionale PHP Erweiterungen</strong></td>
+          <td colspan="2"><strong>Empfohlene PHP Erweiterungen</strong></td>
         </tr>
         <tr>
           <td>GD</td>
@@ -139,12 +139,12 @@
 
   if (function_exists('ini_get')) {
     if ($compat_register_globals == false) {
-      $warning_array['register_globals'] = 'Compatibility with register_globals is supported from PHP 4.3+. This setting <u>must be enabled</u> due to an older PHP version being used.';
+	    $warning_array['register_globals'] = 'Kompatibilit&auml;t mit register_globals wird von PHP 4.3+ unterst&uuml;tzt. Diese Einstellung <u>muss aktiv sein</u> da eine &auml;tere PHP-Version verwendet wird.';
     }
   }
 
-  if (!extension_loaded('mysql')) {
-    $warning_array['mysql'] = 'Das MySQL-Modul ist f&uuml;r PHP ist nicht installiert. Bitte installieren Sie das Modul, bevor Sie mit der Installation fortfahren.';
+  if (!extension_loaded('mysql') && !extension_loaded('mysqli')) {
+    $warning_array['mysql'] = 'Die MySQLi oder eine &auml;tere MySQL Erweiterung ist erforderlich aber nicht installiert. Bitte aktivieren Sie eine davon um die Installation fortzusetzen.';
   }
 
   if ((sizeof($configfile_array) > 0) || (sizeof($warning_array) > 0)) {
@@ -175,8 +175,8 @@
     if (sizeof($configfile_array) > 0) {
 ?>
 
-     <p>Es ist nicht m&ouml;glich die Installationsparameter in einer Datei zu speichern.</p>
-      <p>Folgende Dateien m&uuml;ssen Schreibrechte besitzen (Auf UNIX-Systemen das Writeable-Bit per chmod a+w auf die folgenden Dateien setzen):</p>
+      <p>Dem Webserver gelingt es nicht, die Installationsparameter in seine Konfigurationsdateien zu schreiben.</p>
+      <p>Die folgenden Dateien m&uuml;ssen ein gesetztes Writable-Bit haben (chmod a+w):</p>
       <p>
 
 <?php
@@ -203,30 +203,30 @@
   if ((sizeof($configfile_array) > 0) || (sizeof($warning_array) > 0)) {
 ?>
 
-     <p>Bitte korrigieren Sie die Fehler und versuchen Sie die Installation erneut auszuf&uuml;hren.</p>
+    <p>Bitte korrigieren Sie die oben genannten Fehler und starten Sie die Installationsroutine nochmals sobald die &Auml;nderungen aktiv sind.</p>
 
 <?php
     if (sizeof($warning_array) > 0) {
-     echo '    <p><i>Wenn Sie Parameter des Webservers &auml;ndern, muss der Webserver neu gestartet werden.</i></p>' . "\n";
+	    echo '    <p><i>&Auml;nderungen an den Webservereinstellungen machen eventuell einen Neustart des Webserverdiensts erforderlich bevor die &Auml;nderungen greifen k&ouml;nnen.</i></p>' . "\n";
     }
 ?>
 
-    <p><?php echo osc_draw_button('Nochmals versuchen', 'arrowrefresh-1-e', 'index.php', 'primary'); ?></p>
+    <p><?php echo osc_draw_button('Nochmals versuchen.', 'arrowrefresh-1-e', 'index.php', 'primary'); ?></p>
 
 <?php
   } else {
 ?>
 
-	<p>Die f&uuml;r die Installation von osCommerce ben&ouml;tigten Einstellungen sind vorhanden.</p>
+    <p>The webserver environment has been verified to proceed with a successful installation and configuration of your online store.</p>
 
     <div id="jsOn" style="display: none;">
-       <p>Dr&uuml;cken Sie auf Start um die Installation zu starten.</p>
+      <p>Bitte fahren Sie fort um den Installationsprozess zu starten.</p>
       <p><?php echo osc_draw_button('Start', 'triangle-1-e', 'install.php', 'primary'); ?></p>
     </div>
 
     <div id="jsOff">
-      <p>Bitte aktivieren Sie Javascript in Ihrem Browser, damit die Installation gestartet werden kann.</p>
-      <p><?php echo osc_draw_button('erneut Versuchen', 'arrowrefresh-1-e', 'index.php', 'primary'); ?></p>
+      <p>Bitte aktivieren Sie Javascript in Ihrem Browser damit Sie in der Lage sind, den Installationsprozess zu starten.</p>
+      <p><?php echo osc_draw_button('Retry', 'arrowrefresh-1-e', 'index.php', 'primary'); ?></p>
     </div>
 
 <script>
