@@ -13,7 +13,7 @@
 define('NAVBAR_TITLE', 'Anmelden');
 define('HEADING_TITLE', 'Willkommen, melden Sie sich an');
 
-define('HEADING_NEW_CUSTOMER', 'Neuer Kunde');
+define('HEADING_NEW_CUSTOMER', 'Ich m&ouml;chte gerne neuer Kunde werden');
 define('TEXT_NEW_CUSTOMER', 'Ich bin ein neuer Kunde.');
 define('TEXT_NEW_CUSTOMER_INTRODUCTION', 'Durch Ihre Anmeldung bei ' . STORE_NAME . ' sind Sie in der Lage schneller zu bestellen, kennen jederzeit den Status Ihrer Bestellungen und haben immer eine aktuelle &Uuml;bersicht über Ihre bisherigen Bestellungen.');
 
