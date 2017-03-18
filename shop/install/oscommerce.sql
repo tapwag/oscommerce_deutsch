@@ -1817,7 +1817,7 @@ create table reviews_description (
   PRIMARY KEY (reviews_id, languages_id)
 )CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
-insert into reviews_description (reviews_id, languages_id, reviews_text) values ('1', '1', 'This has to be one of the funniest movies released for 1999!');
+insert into reviews_description (reviews_id, languages_id, reviews_text) values ('1', '1', 'Einer der lustigsten Filme des Jahres 1999');
 
 
 drop table if exists sec_directory_whitelist;
