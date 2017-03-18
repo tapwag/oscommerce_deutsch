@@ -1207,8 +1207,6 @@ insert into pages_description (id, pages_id, pages_title, pages_html_text, intor
 <div class=\"contentContainer\">
 <div class=\"contentText\">
 <h2><a name=\"versand\"></a>Versandkosten:</h2>
-<ul>
-<li>
 <table border=\"1\" width=\"100%\" cellspacing=\"0\" cellpadding=\"2\"><caption>Versandkosten pro Lieferung (inkl. MwSt und in Euro) *</caption>
 <tbody>
 <tr><th scope=\"col\" width=\"40%\">Land</th><th scope=\"col\" width=\"20%\">Zustellung ab Versand<br>in Werktagen</th><th scope=\"col\" width=\"10%\">0-5 kg</th><th scope=\"col\" width=\"10%\">5-10 kg</th><th scope=\"col\" width=\"10%\">10-20 kg</th><th scope=\"col\" width=\"10%\">20-31 kg</th></tr>
@@ -1240,7 +1238,6 @@ insert into pages_description (id, pages_id, pages_title, pages_html_text, intor
 </ul>
 <ul>
 <li>Bei fehlerhaften/unvollst&auml;ndigen Angaben zur Liefer-/Rechnungsanschrift (z.B. falsche PLZ, falsche Hausnummer, nicht zustellbare Adresse wegen fehlendem Namensschild, etc.) kann es zu Mehrkosten bei der Versandabwicklung kommen. Diese Mehrkosten (Zuschl&auml;ge des Kurierdienstes f&uuml;r Adressermittlung, PLZ-Korrektur, etc) gehen zu Lasten des Kunden.</li>
-<li></li>
 </ul>
 <h2><a name=\"lieferzeit\"></a>Lieferzeit:</h2>
 <ul>
@@ -1632,7 +1629,7 @@ Audio: Dolby Surround 5.1.<br />
 Picture Format: 16:9 Wide-Screen.<br />
 Length: (approx) 114 minutes.<br />
 Other: Interactive Menus, Chapter Selection, Subtitles (more languages).', '', '0');
-insert into products_description (products_id, language_id, products_name, products_description, products_url, products_viewed) values ('20', '1', 'Menschenkind', '<p>Regional Code: 2 (Japan, Europe, Middle East, South Africa). <br> Languages: English, Deutsch. <br> Subtitles: English, Deutsch, Spanish. <br> Audio: Dolby Surround 5.1. <br> Picture Format: 16:9 Wide-Screen. <br> Length: (approx) 164 minutes. <br> Other: Interactive Menus, Chapter Selection, Subtitles (more languages).</p>', '', '0');
+insert into products_description (products_id, language_id, products_name, products_description, products_url, products_viewed) values ('20', '1', 'Menschenkind', '<p>Regioncode: 2 (Japan, Europe, Mittlerer Osten, South Africa). <br> Sprachen: Englisch, Deutsch. <br> Untertitel: English, Deutsch, Spanisch. <br> Audio: Dolby Surround 5.1. <br> Bildformat: 16:9 Wide-Screen. <br> Laenge: (approx) 164 Minuten. <br> Weiteres: Interaktive Menus, Kapitelauswahl, Untertitel (mehr Sprachen).</p>', '', '0');
 insert into products_description (products_id, language_id, products_name, products_description, products_url, products_viewed) values ('20', '2', 'Beloved', '<p>Regional Code: 2 (Japan, Europe, Middle East, South Africa). <br> Languages: English, Deutsch. <br> Subtitles: English, Deutsch, Spanish. <br> Audio: Dolby Surround 5.1. <br> Picture Format: 16:9 Wide-Screen. <br> Length: (approx) 164 minutes. <br> Other: Interactive Menus, Chapter Selection, Subtitles (more languages).</p>', '', '2');
 insert into products_description (products_id, language_id, products_name, products_description, products_url, products_viewed) values ('21', '1', 'SWAT 3: Close Quarters Battle', '<strong>Windows 95/98</strong><br /><br />211 in progress with shots fired. Officer down. Armed suspects with hostages. Respond Code 3! Los Angles, 2005, In the next seven days, representatives from every nation around the world will converge on Las Angles to witness the signing of the United Nations Nuclear Abolishment Treaty. The protection of these dignitaries falls on the shoulders of one organization, LAPD SWAT. As part of this elite tactical organization, you and your team have the weapons and all the training necessary to protect, to serve, and \"When needed\" to use deadly force to keep the peace. It takes more than weapons to make it through each mission. Your arsenal includes C2 charges, flashbangs, tactical grenades. opti-Wand mini-video cameras, and other devices critical to meeting your objectives and keeping your men free of injury. Uncompromised Duty, Honor and Valor!', 'www.swat3.com', '0');
 insert into products_description (products_id, language_id, products_name, products_description, products_url, products_viewed) values ('21', '2', 'SWAT 3: Close Quarters Battle', '<strong>Windows 95/98</strong><br /><br />211 in progress with shots fired. Officer down. Armed suspects with hostages. Respond Code 3! Los Angles, 2005, In the next seven days, representatives from every nation around the world will converge on Las Angles to witness the signing of the United Nations Nuclear Abolishment Treaty. The protection of these dignitaries falls on the shoulders of one organization, LAPD SWAT. As part of this elite tactical organization, you and your team have the weapons and all the training necessary to protect, to serve, and \"When needed\" to use deadly force to keep the peace. It takes more than weapons to make it through each mission. Your arsenal includes C2 charges, flashbangs, tactical grenades. opti-Wand mini-video cameras, and other devices critical to meeting your objectives and keeping your men free of injury. Uncompromised Duty, Honor and Valor!', 'www.swat3.com', '0');
