@@ -25,6 +25,35 @@ define('DATE_TIME_FORMAT', DATE_FORMAT_SHORT . ' %H:%M:%S');
 define('JQUERY_DATEPICKER_I18N_CODE', ''); // leave empty for en_US; see http://jqueryui.com/demos/datepicker/#localization
 define('JQUERY_DATEPICKER_FORMAT', 'dd/mm/yy'); // see http://docs.jquery.com/UI/Datepicker/formatDate
 
+//@setlocale(LC_TIME, 'utf-8');
+//@setlocale(LC_TIME, 'de_DE.ISO_8859-1');
+//@setlocale(LC_All, 'de_DE@euro', 'de_DE', 'de', 'ge');
+@setlocale(LC_TIME, 'de_DE.UTF8', 'de_DE', 'de', 'ge' ); //xx_XX stands for your language
+mb_internal_encoding("UTF-8");
+
+//define('DATE_FORMAT_SHORT', '%d/%m/%Y');  // this is used for strftime()
+define('DATE_FORMAT_SHORT', '%d/%m/%Y');  // this is used for strftime()
+
+//define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
+//define('DATE_FORMAT_LONG', '%A, %d.%m.%Y'); // this is used for strftime()
+define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
+/* auﬂerhalb von M‰rz:define('DATE_FORMAT_LONG', '%A, %d. %B %Y'); */
+
+//define('DATE_FORMAT', 'd/m/Y'); // this is used for date()
+define('DATE_FORMAT', 'd.m.Y'); // this is used for date()
+
+//define('DATE_TIME_FORMAT', DATE_FORMAT_SHORT . ' %H:%M:%S');
+define('DATE_TIME_FORMAT', DATE_FORMAT_SHORT . ' %H:%M:%S');
+
+//define('JQUERY_DATEPICKER_I18N_CODE', ''); // leave empty for en_US; see http://jqueryui.com/demos/datepicker/#localization
+define('JQUERY_DATEPICKER_I18N_CODE', 'German'); // leave empty for en_US; see http://jqueryui.com/demos/datepicker/#localization
+
+//define('JQUERY_DATEPICKER_FORMAT', 'dd/mm/yy'); // see http://docs.jquery.com/UI/Datepicker/formatDate
+define('JQUERY_DATEPICKER_FORMAT', 'dd.mm.yy'); // see http://docs.jquery.com/UI/Datepicker/formatDate
+
+define('DATE_FORMAT_LONG', '%A, %d. %B %Y');
+
+
 ////
 // Return date in raw format
 // $date should be in format mm/dd/yyyy
