@@ -286,7 +286,8 @@ insert into configuration (configuration_id, configuration_title, configuration_
 insert into configuration (configuration_id, configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, last_modified, date_added, use_function, set_function) values ('66', 'Suburb', 'ACCOUNT_SUBURB', 'true', 'Display suburb in the customers account', '5', '4', NULL, '2015-02-23 09:52:38', NULL, 'tep_cfg_select_option(array(\'true\', \'false\'), ');
 insert into configuration (configuration_id, configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, last_modified, date_added, use_function, set_function) values ('67', 'State', 'ACCOUNT_STATE', 'true', 'Display state in the customers account', '5', '5', NULL, '2015-02-23 09:52:38', NULL, 'tep_cfg_select_option(array(\'true\', \'false\'), ');
 insert into configuration (configuration_id, configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, last_modified, date_added, use_function, set_function) values ('68', 'Installed Modules', 'MODULE_PAYMENT_INSTALLED', 'cod.php;moneyorder.php;paypal_express.php', 'List of payment module filenames separated by a semi-colon. This is automatically updated. No need to edit. (Example: cod.php;paypal_express.php)', '6', '0', '2015-03-02 14:25:20', '2015-02-23 09:52:38', NULL, NULL);
-insert into configuration (configuration_id, configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, last_modified, date_added, use_function, set_function) values ('69', 'Installed Modules', 'MODULE_ORDER_TOTAL_INSTALLED', 'ot_subtotal.php;ot_shipping.php;ot_tax.php;ot_total.php', 'List of order_total module filenames separated by a semi-colon. This is automatically updated. No need to edit. (Example: ot_subtotal.php;ot_tax.php;ot_shipping.php;ot_total.php)', '6', '0', '2015-03-09 18:30:05', '2015-02-23 09:52:38', NULL, NULL);
+insert into configuration (configuration_id, configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, last_modified, date_added, use_function, set_function) values ('69', 'Installed Modules', 'MODULE_ORDER_TOTAL_INSTALLED', 'ot_subtotal.php;ot_shipping.php;ot_tax.php;ot_total.php', 'List of order_total module filenames separated by a semi-colon. This is automatically updated. No need to edit. (Example: ot_subtotal.php;ot_tax.php;ot_
+shipping.php;ot_total.php)', '6', '0', '2015-03-09 18:30:05', '2015-02-23 09:52:38', NULL, NULL);
 insert into configuration (configuration_id, configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, last_modified, date_added, use_function, set_function) values ('70', 'Installed Modules', 'MODULE_SHIPPING_INSTALLED', 'flat.php', 'List of shipping module filenames separated by a semi-colon. This is automatically updated. No need to edit. (Example: ups.php;flat.php;item.php)', '6', '0', NULL, '2015-02-23 09:52:38', NULL, NULL);
 insert into configuration (configuration_id, configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, last_modified, date_added, use_function, set_function) values ('71', 'Installed Modules', 'MODULE_ACTION_RECORDER_INSTALLED', 'ar_admin_login.php;ar_contact_us.php;ar_reset_password.php;ar_tell_a_friend.php', 'List of action recorder module filenames separated by a semi-colon. This is automatically updated. No need to edit.', '6', '0', NULL, '2015-02-23 09:52:38', NULL, NULL);
 insert into configuration (configuration_id, configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, last_modified, date_added, use_function, set_function) values ('72', 'Installed Modules', 'MODULE_SOCIAL_BOOKMARKS_INSTALLED', 'sb_email.php;sb_google_plus_share.php;sb_facebook.php;sb_twitter.php;sb_pinterest.php', 'List of social bookmark module filenames separated by a semi-colon. This is automatically updated. No need to edit.', '6', '0', '2015-03-09 18:30:02', '2015-02-23 09:52:38', NULL, NULL);
@@ -1278,9 +1279,9 @@ insert into pages_description (id, pages_id, pages_title, pages_html_text, intor
 <h2><a name=\"versand\"></a>shipping costs:</h2>
 <ul>
 <li>
-<table border=\"1\" width=\"100%\" cellspacing=\"0\" cellpadding=\"2\"><caption>shipping costs per parcel (incl. tax and in Euro) *</caption>
+<table border=\"1\" width=\"100%\" cellspacing=\"0\" cellpadding=\"2\"><caption>Shipping costs per parcel (Euro currency incl. tax) *</caption>
 <tbody>
-<tr><th scope=\"col\" width=\"40%\">country</th><th scope=\"col\" width=\"20%\">delivery from shipment<br>in workdays</th><th scope=\"col\" width=\"10%\">0-5 kg</th><th scope=\"col\" width=\"10%\">5-10 kg</th><th scope=\"col\" width=\"10%\">10-20 kg</th><th scope=\"col\" width=\"10%\">20-31 kg</th></tr>
+<tr><th scope=\"col\" width=\"40%\">Country</th><th scope=\"col\" width=\"20%\">Delivery from shipment<br>in workdays</th><th scope=\"col\" width=\"10%\">0-5 kg</th><th scope=\"col\" width=\"10%\">5-10 kg</th><th scope=\"col\" width=\"10%\">10-20 kg</th><th scope=\"col\" width=\"10%\">20-31 kg</th></tr>
 <tr>
 <td>Germany</td>
 <td align=\"center\">2-3</td>
@@ -1309,7 +1310,6 @@ insert into pages_description (id, pages_id, pages_title, pages_html_text, intor
 </ul>
 <ul>
 <li>If the customer specified a wrong/incomplete address (e.g. wrong city code, wrong house number, etc.), the additional costs for the delivery will be charged at the expense of the customer.</li>
-<li></li>
 </ul>
 <h2><a name=\"lieferzeit\"></a>Delivery period:</h2>
 <ul>
