@@ -41,6 +41,6 @@ define('TEXT_LIEFERZEIT_4', 'Sie sehen das voraussichtliche Lieferdatum (oder ei
 define('HEADING_ZAHLUNG', 'Zahlung');
 define('TEXT_ZAHLUNG_1', 'Sie k&ouml;nnen bei uns per &Uuml;berweisung oder <Ihre Zahlungsarten> bezahlen.');
 
-// Wenn Sie dieses Formular anpassen, muß das parallel zu der catalog/shipping-Datei gemacht werden, und dann für die Anzeige der Daten die jeweilige Sprache ebenso
+// Wenn Sie dieses Formular anpassen, muß das parallel zu der catalog/shipping-Datei gemacht werden, und dann fuer die Anzeige der Daten die jeweilige Sprache ebenso
 
 ?>
