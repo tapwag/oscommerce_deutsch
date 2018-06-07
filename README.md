@@ -12,3 +12,12 @@ Happy selling and happy hacking!
 
 Maik
 www.linuxandlanguages.com
+
+# To Do Items
+
+* Capitalise spelling in "erwartete Artikel" to "Erwartete Artikel" 
+(Adminsection)
+* On Ubuntu 14.04 the default configuration for directory indexes is 
+true and osCommerce doesn't seem to consider the .htaccess files 
+supplied by the package
+* Creating on an installation script to simplify installation
