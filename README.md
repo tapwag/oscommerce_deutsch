@@ -15,8 +15,19 @@ www.linuxandlanguages.com
 
 # To Do Items
 
+Spellings
+
 * Capitalise spelling in "erwartete Artikel" to "Erwartete Artikel" 
 (Adminsection)
+* Capitalise spelling in "akzeptierte Zahlungsweisen" (Admin -> Module - 
+Boxes)
+* Capitalise "Admin" -> "Konfiguration" -> "Untere Werte" -> "meist 
+verkaufte Produkte"
+* Capitalise "Admin" -> "Konfiguration" -> "Seo Urls 5"
+* Translate "Admin"-> "Boxes" to "Kästen"
+
+Administration/Upgrade
+* Integrate Upgrade from Upstream 2.3.4.1
 * On Ubuntu 14.04 the default configuration for directory indexes is 
 true and osCommerce doesn't seem to consider the .htaccess files 
 supplied by the package
