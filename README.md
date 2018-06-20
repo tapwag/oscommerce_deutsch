@@ -32,3 +32,4 @@ Administration/Upgrade
 true and osCommerce doesn't seem to consider the .htaccess files 
 supplied by the package
 * Creating on an installation script to simplify installation
+* Ubuntu's Apache2 configuration seems to have Apache Options to be enabled by default -> Set Options -Indexes automatically
